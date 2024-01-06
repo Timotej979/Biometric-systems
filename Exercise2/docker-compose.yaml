@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  # OpenBR
+  openbr:
+    image: openbr:latest
+
+    build:
+      context: ./container
+
+    volumes:
+      - ./container:/container
+
+    environment:
+      - CHOICE=${MAIN_CHOICE}
+      - SUB_CHOICE1=${SUB_CHOICE1}
+      - SUB_CHOICE2=${SUB_CHOICE2}
+      - SUB_CHOICE3=${SUB_CHOICE3}
+      - SUB_CHOICE4=${SUB_CHOICE4}
+      
+    command: ["bash", "-c", "cd /container && chmod +x cliTool.sh && ./cliTool.sh"]
