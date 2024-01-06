@@ -7,4 +7,5 @@ Exercise2/container/lfw-dataset/*
 Exercise2/container/lfwa-dataset/*
 
 # Project - Datasets
+Project/detectors/sbi/weights/*
 Project/datasets/face-forensics/*
