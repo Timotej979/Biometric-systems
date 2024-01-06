@@ -1,0 +1,9 @@
+# Pyton requirements file
+torchsummary
+scikit-image
+matplotlib
+seaborn
+tqdm
+scipy
+scikit-learn
+numpy
