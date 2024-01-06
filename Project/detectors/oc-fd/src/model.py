@@ -34,7 +34,7 @@ torch.manual_seed(seed)
 device = torch.device("cuda" if cuda else "cpu")
 print("Device: ", device)
 
-kwargs = {'num_workers': 4, 'pin_memory': True} if cuda else {}
+kwargs = {'num_workers': 8, 'pin_memory': True} if cuda else {}
 
 ####################################################################################################
 # DATASET LOADING
