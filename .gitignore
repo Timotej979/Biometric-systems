@@ -8,4 +8,4 @@
 
 # Project - Datasets
 Project/detectors/sbi/weights/*
-Project/datasets/face-forensics/*
+#Project/datasets/face-forensics/*
