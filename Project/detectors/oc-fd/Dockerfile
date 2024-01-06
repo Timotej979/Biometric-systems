@@ -26,4 +26,4 @@ COPY . /app/detector
 WORKDIR /
 
 # Set the entrypoint
-ENTRYPOINT [ "sh", "-c", "python3 /app/detector/src/model.py && exit"]
+ENTRYPOINT [ "sh", "-c", "python3 /app/detector/src/model.py > /detector-output/oc-fd/output.log 2>&1 && exit"]
