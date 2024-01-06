@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# This script is used to build and run the detector images for the evaluation framework with volumes
+
+# Build the docker images for every detector and create the volumes
+source buildDetectorImages.sh
+
+# Get the dataset directory
+export DATASET_DIR=$(pwd)/datasets
+export DETECTOR_OUTPUT_DIR=$(pwd)/detector-output
+
+printenv | grep DATASET_DIR
+printenv | grep DETECTOR_OUTPUT_DIR
+
+# Run the docker images for every detector, mounting the volumes created above
+# Add the following flags to the docker run command to enable GPU support and increase the shared memory size (After the -it flag):
+#   --gpus all --shm-size 64G 
+
+docker run -i --gpus all -v $DATASET_DIR:/datasets:ro -v $DETECTOR_OUTPUT_DIR/oc-fd:/output oc-fd-image /bin/bash
+#docker run -i --gpus all -v $DATASET_DIR:/datasets:ro -v $DETECTOR_OUTPUT_DIR/sbi:/output sbi-image /bin/bash
+
+
+
