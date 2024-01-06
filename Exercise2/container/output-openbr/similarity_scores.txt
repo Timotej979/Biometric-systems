@@ -1,0 +1,1000 @@
+Alvaro_Uribe	7	10: 1.85163
+Ana_Palacio	1	6: 0.659413
+Andy_Hebb	1	2: 0.88498
+Albert_Costa	4	6: 0.569469
+Alvaro_Uribe	28	29: 0.213621
+Ben_Affleck	2	6: 1.65863
+Bill_Frist	3	8: -0.232716
+Alan_Greenspan	1	5: -3.40282e+38
+Amanda_Bynes	1	3: 0.324254
+Albert_Costa	5	6: 1.40512
+Ann_Veneman	1	2: 0.61348
+Angelo_Reyes	1	2: 0.368716
+Abdullah_Gul	13	16: 0.0635244
+Amanda_Bynes	1	4: -0.0633366
+Amanda_Bynes	3	4: -0.0739232
+Alvaro_Uribe	17	26: 2.3361
+Annette_Lu	1	2: 0.551924
+Allison_Janney	1	2: 0.646755
+Adel_Al-Jubeir	1	3: 1.71153
+Antonio_Trillanes	1	2: 1.35022
+Alex_Penelas	1	2: 1.14862
+Ann_Veneman	5	11: 0.730936
+Carla_Del_Ponte	4	5: -3.40282e+38
+Amelie_Mauresmo	4	11: 0.482067
+Antonio_Palocci	3	8: 2.97423
+Amanda_Bynes	1	2: 0.559291
+Abdullah_Gul	13	14: 2.0742
+Bridget_Fonda	1	3: 1.48491
+Andrei_Mikhnevich	1	2: 1.94197
+Christian_Wulff	1	2: 1.74473
+Anne_Krueger	1	2: 2.90805
+Bill_Sizemore	1	2: 0.78137
+Annette_Lu	2	3: 2.5663
+Amelie_Mauresmo	16	21: 0.167794
+Anna_Nicole_Smith	1	2: 0.377367
+Amelie_Mauresmo	1	21: -0.591204
+Arlen_Specter	1	3: 0.604046
+Antonio_Trillanes	2	3: 0.543812
+Albert_Costa	2	6: 1.93583
+Ali_Naimi	1	3: 2.45229
+Al_Pacino	1	2: -0.195491
+Alejandro_Atchugarry	1	2: 1.38513
+Angelo_Reyes	2	3: 0.100636
+Abdullatif_Sener	1	2: 0.240516
+Carlos_Manuel_Pruneda	2	3: -0.00337346
+Bill_Frist	1	3: 1.66106
+Chris_Bell	1	2: 3.37024
+Christine_Todd_Whitman	5	6: 0.184882
+Begum_Khaleda_Zia	1	2: 0.684828
+Bertie_Ahern	2	3: -3.40282e+38
+Ann_Veneman	8	9: 0.742641
+Ali_Naimi	3	4: 0.846679
+Bono	1	2: 0.206199
+Anne_Krueger	2	3: 0.184763
+Annette_Lu	1	3: 1.10846
+Carla_Del_Ponte	2	4: 0.532797
+Candice_Bergen	1	3: 0.268725
+Chok_Tong_Goh	1	2: -inf
+Ben_Affleck	1	3: 0.716621
+Allyson_Felix	2	5: 0.686615
+Carlos_Ortega	1	3: -0.0308727
+Chris_Byrd	1	2: -0.207405
+Bill_McBride	2	6: 0.433469
+Derek_Jeter	2	3: 0.614088
+Barbara_Brezigar	1	2: 0.384513
+Ben_Affleck	3	6: -0.188682
+Bill_McBride	2	10: 0.571059
+Edward_Norton	1	2: -inf
+Carlos_Moya	7	11: -0.0163833
+Carlos_Manuel_Pruneda	1	3: 0.503875
+Cristina_Fernandez	1	2: 0.310252
+Carolyn_Dawn_Johnson	2	3: 0.453885
+Augustin_Calleri	1	3: 1.45625
+Bill_Frist	2	7: 0.827141
+Dennis_Powell	1	2: -inf
+Carrie-Anne_Moss	2	5: 0.523426
+Chen_Shui-bian	3	5: 0.983133
+Augustin_Calleri	1	4: 0.157397
+Condoleezza_Rice	2	5: 0.794302
+Bill_McBride	3	9: 0.558494
+Chanda_Rubin	2	4: 0.746871
+Dominique_de_Villepin	3	5: 0.42421
+Elisabeth_Schumacher	1	2: 0.0097497
+Carson_Daly	1	2: 0.00451792
+Chang_Dae-whan	1	2: 1.27451
+Chita_Rivera	1	2: 1.7538
+Butch_Davis	1	2: 0.914981
+Calista_Flockhart	2	6: 0.0527144
+Bridgette_Wilson-Sampras	1	2: 0.225985
+Bono	1	3: 0.406274
+Dominique_de_Villepin	7	11: 0.419095
+Bono	2	3: 0.148589
+Dave_Campo	2	3: 0.158809
+Daisy_Fuentes	3	4: -0.0228777
+Carlos_Manuel_Pruneda	1	2: 0.640875
+Christopher_Reeve	1	4: 2.02776
+Cathy_Freeman	1	2: -0.122136
+Brian_Cowen	1	2: 0.970688
+Donald_Pettit	2	3: 0.213673
+Christine_Ebersole	1	2: 0.137142
+Emma_Watson	2	3: 1.97847
+Christian_Longo	1	3: 4.56956
+Claire_Leger	1	2: 1.00413
+Dai_Bachtiar	1	2: 1.42999
+Ian_Thorpe	3	10: 0.184828
+Erik_Morales	1	3: 1.49331
+Dominique_de_Villepin	14	15: 3.78207
+Charles_Taylor	3	9: 0.0013128
+Diane_Green	1	2: 1.18233
+David_Stern	1	4: 0.65772
+David_Stern	3	4: 0.982194
+Frank_Cassell	1	2: -inf
+Denzel_Washington	2	5: 0.304084
+Dick_Clark	1	3: 2.28786
+Condoleezza_Rice	7	10: 2.36962
+George_Robertson	15	22: 0.671567
+Garry_Trudeau	1	2: 0.605522
+Dave_Campo	1	2: 0.49957
+Dick_Clark	2	3: 0.601533
+Elsa_Zylberstein	3	6: 0.761159
+Elsa_Zylberstein	1	5: -3.40282e+38
+George_Foreman	1	2: 1.10192
+Denzel_Washington	2	4: 0.843698
+Hermann_Maier	1	2: -3.40282e+38
+Christian_Longo	2	3: 1.36275
+Eliane_Karp	1	4: 0.161297
+Gordon_Brown	4	11: 0.846278
+Horst_Koehler	1	3: -3.40282e+38
+Denise_Johnson	1	2: 0.0770118
+Dick_Vermeil	1	2: 0.103091
+Edwin_Edwards	2	3: 0.385779
+Doug_Collins	1	2: 0.376669
+Donald_Rumsfeld	22	36: -0.0261152
+Denzel_Washington	1	3: 1.23133
+Janica_Kostelic	1	2: 0.365856
+George_Robertson	5	20: 0.450777
+Erin_Runnion	3	4: 0.613705
+Edward_Lu	2	4: 0.867574
+James_Maguire	1	2: 1.1885
+Dick_Clark	1	2: 0.673365
+George_Karl	1	2: 0.153917
+Jennifer_Capriati	24	29: 1.31624
+Felipe_Perez_Roque	1	4: 1.22481
+Gordon_Campbell	1	2: 0.608125
+Donald_Rumsfeld	28	108: 0.516931
+Elinor_Caplan	1	2: 0.818419
+Gary_Doer	1	2: 0.288643
+Fernando_Vargas	2	4: 0.208405
+Donald_Pettit	1	2: 0.203458
+Fabiola_Zuluaga	1	2: -0.133265
+Emma_Watson	3	5: 1.66855
+Eliane_Karp	2	3: 0.00105057
+Elizabeth_Smart	3	4: 0.198733
+Felipe_Perez_Roque	2	4: 1.73209
+Donald_Rumsfeld	41	48: 0.457156
+Flor_Montulo	1	2: -0.139591
+Jake_Gyllenhaal	2	4: 0.164911
+Jean-Marc_de_La_Sabliere	1	2: 0.599614
+Geraldine_Chaplin	1	3: 1.04407
+Gary_Winnick	1	2: 0.796749
+Harry_Kalas	1	2: 0.818737
+Elizabeth_Smart	1	5: 0.777413
+Gary_Doer	1	3: 0.0528245
+George_Robertson	12	19: 0.976147
+Elin_Nordegren	1	2: 0.173879
+Edwin_Edwards	1	2: 1.08885
+Heidi_Fleiss	1	3: 0.512851
+Giuseppe_Gibilisco	3	4: 0.753976
+Frank_Dunham_Jr	1	2: 0.37686
+Johnny_Carson	1	2: 0.213718
+Gerry_Adams	3	7: 0.879297
+Gerhard_Schroeder	3	26: 0.0275672
+Gray_Davis	13	23: -inf
+Elsa_Zylberstein	1	2: 0.218851
+Greg_Gilbert	1	2: 0.18927
+Gary_Doer	2	3: 0.696296
+Emma_Watson	1	4: 1.31359
+Jacques_Chirac	22	44: 0.993915
+Gene_Robinson	2	4: 1.66123
+Gilberto_Rodriguez_Orejuela	3	4: 0.423551
+Jack_Grubman	1	2: 1.83009
+Gao_Qiang	1	2: 0.341146
+Ismail_Merchant	1	2: 0.56585
+Gregory_Hines	1	2: 0.666366
+Gerry_Adams	5	8: 2.09579
+James_Butts	1	2: 2.82711
+Gilberto_Rodriguez_Orejuela	2	4: 0.902385
+Gilberto_Rodriguez_Orejuela	1	3: 0.136766
+Hassan_Wirajuda	1	2: 1.27726
+Ian_Thorpe	6	8: 2.3592
+James_Smith	1	2: 1.26747
+Erika_Christensen	1	2: 0.728229
+Greg_Ostertag	1	2: -0.211389
+Gwendal_Peizerat	1	2: 2.06737
+Georgi_Parvanov	1	2: 0.282032
+Gray_Davis	6	23: 0.0288865
+John_Rowland	1	2: 0.515756
+Heidi_Fleiss	1	4: 0.126639
+Jan_Ullrich	2	5: 1.03557
+Javier_Weber	1	2: 0.981309
+James_Kelly	4	11: 2.64294
+Giuseppe_Gibilisco	2	4: 0.712579
+Ernie_Fletcher	1	2: 1.03435
+Jake_Gyllenhaal	3	4: -0.192359
+Jean-Claude_Juncker	1	2: 0.808843
+Kosuke_Kitajima	1	2: -3.40282e+38
+Jiang_Zemin	2	17: -0.132467
+Gus_Van_Sant	1	2: 1.43097
+Javier_Weber	1	3: 0.0222254
+Jacques_Rogge	4	6: 0.855764
+Isabella_Rossellini	1	2: 0.165677
+Ian_Thorpe	2	7: 0.538872
+Jacques_Chirac	31	52: 1.81297
+James_Kopp	1	3: 0.554007
+Jacques_Chirac	30	33: 0.778637
+John_Garamendi	1	2: 0.664043
+Jennifer_Keller	2	4: 1.68052
+Glafcos_Clerides	1	4: 0.348543
+John_Bolton	3	10: 0.897948
+John_Bolton	4	14: 0.889152
+John_Bolton	5	13: 1.33264
+Jan_Ullrich	2	3: 4.57747
+James_Franco	1	2: 0.779053
+Jean-Pierre_Raffarin	2	6: 0.396874
+Gwyneth_Paltrow	4	5: 0.621862
+Jefferson_Perez	1	2: 0.0264875
+Jesse_Ventura	1	3: 0.521388
+Jean_Carnahan	1	2: 0.288941
+Justine_Henin	2	3: 1.7894
+Jack_Nicholson	2	3: -0.105553
+Heather_Mills	3	4: 0.989592
+John_Walsh	1	2: 1.41485
+Isabelle_Huppert	1	2: 1.30661
+Jeremy_Shockey	1	2: 1.87192
+Joe_Nichols	1	3: 0.441147
+Kenneth_Evans	1	2: 1.3675
+Jimmy_Carter	1	9: 1.24129
+John_Bolton	11	14: 2.32516
+Jimmy_Carter	4	8: 3.18982
+James_Kopp	2	3: -0.00180652
+Jennifer_Capriati	3	13: 1.42031
+Jennifer_Connelly	1	4: 1.79544
+Jim_Harrick	1	2: 1.11905
+Lloyd_Ward	1	2: 0.980446
+Jorge_Castaneda	1	2: 0.719632
+Owen_Wilson	1	2: 0.758111
+Jiang_Zemin	12	15: 2.22063
+King_Abdullah_II	1	4: 1.03378
+Justine_Henin	1	3: 0.925872
+Jeong_Se-hyun	4	5: 0.104649
+Justin_Leonard	1	3: 0.10995
+John_Travolta	4	5: 0.7987
+LK_Advani	1	2: 0.418973
+Julie_Gerberding	8	12: 0.792979
+Jean-Claude_Trichet	1	2: 1.07345
+Masum_Turker	1	2: 1.46751
+Jimmy_Carter	8	9: 0.206874
+James_Kelly	9	11: 0.619024
+John_McCallum	1	2: 0.738899
+King_Abdullah_II	1	2: 0.0210097
+Kamal_Kharrazi	3	5: 2.92044
+Leonardo_DiCaprio	1	8: 0.210325
+King_Abdullah_II	1	3: 0.243521
+LK_Advani	1	3: 0.441498
+Keith_Bogans	2	3: -3.40282e+38
+Paris_Hilton	1	2: 1.84661
+Mahmoud_Abbas	19	26: 2.79499
+Lynn_Abraham	1	2: 1.34959
+Jennifer_Connelly	3	4: 3.28425
+Joe_Mantello	1	2: 1.08934
+Jessica_Lange	1	2: 0.12633
+John_Negroponte	4	17: 0.17727
+Kurt_Warner	1	5: 0.365268
+Leonid_Kuchma	4	6: 1.62496
+Jennifer_Keller	3	4: 0.830583
+John_Stallworth	1	2: 0.797181
+Judi_Dench	1	2: 0.583863
+Miguel_Contreras	1	2: 0.144766
+Kim_Yong-il	1	2: -0.0135149
+Kristen_Breitweiser	1	2: 2.45414
+King_Abdullah_II	2	3: -0.315623
+Julie_Gerberding	7	12: 0.228355
+Jose_Dirceu	1	2: -3.40282e+38
+Mary_Landrieu	1	3: 0.0433257
+Marieta_Chrousala	1	3: 0.823811
+Joe_Nichols	3	4: 2.24661
+Kristin_Davis	1	2: 4.28333
+Liza_Minnelli	1	3: 0.505644
+Masum_Turker	1	3: 0.191496
+Martin_Cauchon	1	2: 4.06113
+Mack_Brown	1	2: 0.468495
+Luis_Figo	1	2: 0.852245
+Luciano_Pavarotti	1	3: 0.583867
+LK_Advani	2	3: 0.196652
+Joseph_Deiss	1	2: 2.8431
+Mario_Cipollini	1	2: 0.904585
+Lauren_Killian	1	2: 0.458043
+Leonardo_DiCaprio	3	7: 0.378514
+Luis_Horna	1	3: 1.06261
+Mark_Richt	2	3: 0.497581
+Luis_Horna	2	5: 0.417039
+Nastassia_Kinski	1	2: 1.65484
+Martha_Stewart	1	2: 0.678482
+Richie_Adubato	1	2: 1.51013
+Leonid_Kuchma	2	4: 1.76181
+Larry_Coker	2	4: 0.989066
+Kjell_Magne_Bondevik	1	2: 0.733264
+Laurent_Jalabert	1	2: 0.100985
+Michael_Jackson	2	8: 2.58127
+Leslie_Moonves	1	2: 0.721572
+Laura_Linney	1	3: 1.16001
+Leszek_Miller	2	3: -3.40282e+38
+Matt_Doherty	1	2: -0.312898
+Kristin_Davis	2	3: 1.03127
+Pedro_Malan	1	4: 0.476732
+Mohamed_ElBaradei	3	6: 2.58201
+Pedro_Malan	1	2: -3.40282e+38
+Mireya_Moscoso	1	3: 0.335438
+Mikhail_Youzhny	1	3: 1.27582
+Michael_Phelps	1	3: 0.386567
+Matthew_Broderick	3	4: 0.268555
+Martha_Burk	2	4: 2.50175
+Martha_Stewart	2	5: 0.857489
+Lisa_Raymond	1	2: 0.875433
+Naoto_Kan	2	3: 5.14543
+Leonid_Kuchma	1	6: 1.36968
+Michael_Sullivan	1	2: 0.181948
+Patti_Labelle	2	3: 1.40965
+Nicanor_Duarte_Frutos	8	10: 1.60704
+Nasser_al-Kidwa	1	2: -0.106476
+Mark_Richt	1	3: 1.08671
+Melissa_Etheridge	1	2: 1.14555
+Naomi_Campbell	1	2: 1.61042
+Lucy_Liu	2	4: 0.140467
+Lino_Oviedo	1	2: 1.4869
+Michelle_Yeoh	3	4: 0.665791
+Leonid_Kuchma	2	3: 3.84471
+Muhammad_Ali	4	7: 0.914304
+Nancy_Pelosi	2	5: 1.57454
+Matt_Doherty	1	3: 0.130634
+Mikhail_Youzhny	2	3: 1.07942
+Norm_Coleman	2	7: 0.294034
+Latrell_Sprewell	1	2: -0.268177
+Mohamed_ElBaradei	5	8: 0.509382
+Michel_Duclos	1	2: 1.03553
+Ozzy_Osbourne	1	2: -0.0284575
+Marcelo_Rios	2	4: 0.354515
+Rebecca_Romijn-Stamos	3	4: 0.870321
+Marcelo_Rios	1	4: -1.13312e-05
+Paul_Martin	2	4: 0.435279
+Richard_Gere	6	10: 0.104932
+Marieta_Chrousala	1	2: 0.573566
+Marcelo_Rios	4	5: 1.08779
+Richard_Gere	1	10: 0.66092
+Mohamed_ElBaradei	4	5: -0.181065
+Padraig_Harrington	1	3: 0.224709
+Mikulas_Dzurinda	1	2: 1.08557
+Mike_Price	1	2: 0.164479
+Paul_Burrell	4	10: 3.65197
+Osama_bin_Laden	2	4: 1.82984
+Nancy_Pelosi	6	13: 2.18006
+Mark_Dacey	1	2: 2.10404
+Richard_Norton-Taylor	1	2: 2.05312
+Martha_Stewart	3	5: 1.45035
+Ralf_Schumacher	1	6: 0.140229
+Sean_OKeefe	4	5: -3.40282e+38
+Martin_Sheen	1	2: 0.646535
+Reese_Witherspoon	1	2: 1.3971
+Mireya_Moscoso	2	3: 2.69555
+Muhammad_Ali	6	9: -0.160536
+Robert_Redford	2	3: 1.04653
+Natalie_Coughlin	1	2: 1.46795
+Monica_Lewinsky	2	3: 1.7556
+Richard_Shelby	1	2: 0.33817
+Yevgeny_Kafelnikov	3	4: 3.17539
+Patrick_Leahy	1	2: 0.721346
+Paul_Martin	1	8: -0.605797
+Natalie_Maines	2	4: 0.689643
+Nancy_Pelosi	13	14: 1.01811
+Noah_Wyle	1	2: 1.1646
+Penelope_Cruz	1	2: 0.480821
+Priscilla_Presley	1	2: 0.392333
+Tang_Jiaxuan	1	9: 0.289101
+Paul-Henri_Mathieu	1	2: 0.450919
+Rick_Dinse	1	3: 0.818971
+Reese_Witherspoon	1	4: 0.901063
+Patti_Labelle	1	2: 2.66226
+Paul_Burrell	5	11: 0.824459
+Matthew_Broderick	2	3: 0.515633
+Rebecca_Romijn-Stamos	2	4: 0.635309
+Matthew_Broderick	1	4: 0.365121
+Robbie_Fowler	1	2: 4.00531
+Natalie_Coughlin	3	5: 0.454956
+Rick_Pitino	1	2: 0.712795
+Peter_Greenaway	1	2: 2.69534
+Patty_Schnyder	1	4: 0.494525
+Paul_Patton	1	2: 1.633
+Robby_Ginepri	1	2: -0.242823
+Paul_Martin	3	6: 0.570632
+Patty_Schnyder	1	3: 0.793269
+Robert_Mueller	1	3: 0.462466
+Ozzy_Osbourne	2	3: -0.287743
+Orrin_Hatch	1	2: 0.110523
+Thaksin_Shinawatra	1	6: 0.556733
+Pierce_Brosnan	4	12: 0.3464
+Rod_Blagojevich	1	2: 1.72296
+Sergey_Lavrov	1	10: 1.28332
+Pedro_Malan	2	3: -inf
+Susie_Castillo	1	2: 1.18327
+Rachel_Hunter	2	3: 1.29113
+Robert_Redford	2	5: 1.72017
+Paul_Sarbanes	2	3: 1.28901
+Vaclav_Havel	1	6: -0.208721
+Pierce_Brosnan	7	8: 0.824917
+Roy_Moore	2	3: 0.727998
+Rich_Gannon	1	2: 1.00388
+Pierre_Boulanger	1	2: 1.08261
+Stan_Heath	1	2: 0.24651
+Ricardo_Maduro	1	2: 0.413071
+Rick_Wagoner	1	2: 0.54029
+Mikhail_Youzhny	1	2: 1.77711
+William_Burns	1	2: 1.18664
+Rachel_Griffiths	1	3: 0.849095
+Robert_Horan	1	2: 1.06499
+Rick_Perry	2	6: 0.102418
+Sean_Patrick_OMalley	1	3: 0.95783
+Tang_Jiaxuan	1	11: 1.44535
+Tom_Coverdale	1	2: 1.72691
+Silvio_Berlusconi	14	23: 1.52938
+Vicente_Fernandez	4	5: 0.971413
+Rick_Perry	1	2: 0.396183
+Rob_Schneider	1	2: 1.83636
+Susan_Collins	1	2: 1.24653
+Thabo_Mbeki	4	5: 1.26869
+Tracee_Ellis_Ross	1	2: 0.595711
+Tassos_Papadopoulos	1	2: 0.961703
+Tammy_Lynn_Michaels	1	2: 1.1689
+Scott_McNealy	1	2: 0.622938
+Sean_Astin	1	2: 0.0143194
+Vicente_Fernandez	2	5: 0.977595
+Salma_Hayek	8	10: 0.451418
+Stefano_Accorsi	1	2: 1.21113
+Robert_Redford	7	8: 1.76729
+Tom_Cruise	4	9: 0.399498
+William_Rehnquist	1	2: 0.312369
+Al_Davis	2	Dennis_Powell	1: -3.40282e+38
+Russell_Crowe	1	2: 1.11689
+Rick_Romley	1	2: 0.440787
+Rod_Stewart	1	3: 0.363193
+Thomas_OBrien	8	9: 0.485897
+Russell_Coutts	1	2: 1.05857
+Robert_Redford	4	7: 0.233858
+Vincent_Brooks	1	2: 1.79653
+Steven_Hatfill	1	2: 1.19447
+Sean_Penn	2	3: 0.786744
+Tim_Allen	1	2: 1.28183
+Tom_Cruise	1	7: 0.722679
+Ronaldo_Luis_Nazario_de_Lima	1	4: 1.8516
+Vincent_Brooks	2	6: 2.33297
+Aline_Chretien	1	Carlos_Iturgaitz	1: -0.1493
+Tang_Jiaxuan	1	6: 0.643642
+Tim_Allen	2	4: 0.460725
+Sheila_Wellstone	1	2: 0.365388
+Abid_Hamid_Mahmud_Al-Tikriti	1	Eli_Broad	1: 0.420762
+Alex_Corretja	1	Newt_Gingrich	1: -3.40282e+38
+Tommy_Haas	2	3: 0.696329
+Aileen_Riggin_Soule	1	Damarius_Bilbo	1: -0.205802
+Adriana_Lima	1	Terrence_Trammell	1: 0.475762
+Sarah_Jessica_Parker	5	6: 0.0575447
+Tony_Shalhoub	1	3: -0.456593
+Amanda_Marsh	1	Howard_Smith	2: -0.278727
+Tang_Jiaxuan	1	10: 0.678503
+Winona_Ryder	19	21: 1.31335
+Armando_Avila_Panchame	1	Hamza_Atiya_Muhsen	1: -0.257251
+Sean_Patrick_OMalley	1	2: 2.37655
+Svetlana_Koroleva	1	2: 3.73495
+Abdul_Majeed_Shobokshi	1	Charles_Cope	1: -0.0915724
+Wesley_Clark	1	2: 0.463578
+Sean_Patrick_OMalley	2	3: 1.08197
+Tim_Curry	1	2: 1.37542
+Bing_Crosby	1	Leonid_Kuchma	5: 0.202628
+Tippi_Hedren	1	2: 2.1998
+Tom_Cruise	2	4: 0.696505
+Terry_McAuliffe	1	3: 0.254735
+Terry_McAuliffe	1	2: 0.0518241
+Thaksin_Shinawatra	3	6: 0.452491
+Aleksander_Voloshin	1	Ashlea_Talbot	1: 0.172051
+Salma_Hayek	1	7: 0.372326
+Rupert_Grint	2	3: 2.89889
+Steve_Lavin	1	4: 0.0249853
+Ana_Palacio	5	Erika_Christensen	2: -0.262526
+Ali_Naimi	8	Vanessa_Laine	1: -0.184428
+Warren_Beatty	1	2: 0.221287
+Theodore_Tweed_Roosevelt	2	3: 1.52203
+William_Macy	1	4: 1.46437
+Shannon_OBrien	1	2: 0.24979
+Surakait_Sathirathai	1	2: 0.741877
+Aaron_Guiel	1	Reese_Witherspoon	3: -0.659345
+Victoria_Beckham	2	3: 0.924125
+Tomoko_Hagiwara	1	2: 1.01047
+Will_Smith	1	2: 0.598254
+Barry_Williams	1	Richard_Langille	1: 0.226268
+Warren_Buffett	1	3: 1.43273
+Ascencion_Barajas	1	Marissa_Jaret_Winokur	2: -0.418178
+Winona_Ryder	6	15: 0.469033
+Abdullah_Gul	16	Steve_Cox	1: 0.0757912
+Alicia_Keys	1	Giannina_Facio	1: 0.415232
+Aaron_Tippin	1	Jose_Luis_Rodriguez_Zapatero	1: 0.359348
+Spencer_Abraham	12	13: 0.778079
+Barzan_al-Tikriti	1	Jim_Haslett	1: 0.0860767
+Zoran_Djindjic	3	4: 0.00920256
+Allison_Searing	1	Warren_Beatty	1: 0.643678
+Todd_Haynes	1	4: -0.273647
+Augustin_Calleri	4	Brad_Miller	1: 0.559987
+Annette_Lu	1	Scott_Fawell	1: 0.0345699
+Andrew_Wetzler	1	Cristina_Torrens_Valero	1: -0.0444831
+Adriana_Perez_Navarro	1	Jennifer_Capriati	8: -3.40282e+38
+Brock_Berlin	1	Wendy_Selig	1: 0.0130778
+Vaclav_Havel	1	9: 0.331906
+Brandon_Webb	1	Teddy_Kollek	1: -0.398548
+Anna_Nicole_Smith	1	Tony_Shalhoub	4: -0.310904
+William_Macy	3	5: 0.929252
+Allison_Searing	1	Phillip_Fulmer	1: -0.44082
+AJ_Lamas	1	Zach_Safrin	1: -0.127225
+Al_Pacino	1	Izzat_Ibrahim	1: -0.0246519
+Aitor_Gonzalez	1	Lily_Tomlin	2: 0.030107
+Tyler_Hamilton	1	2: 0.592507
+Yoriko_Kawaguchi	3	10: 0.598243
+Adrian_Murrell	1	Tommy_Franks	15: 0.619369
+Shane_Mosley	1	2: 0.755719
+Benjamin_McKenzie	1	Lisa_Leslie	1: 0.218409
+William_Macy	2	3: 0.367683
+Bob_Newhart	1	Marina_Canetti	1: -0.231877
+Alicia_Molik	1	Lena_Katina	1: -0.0802492
+Alex_Cabrera	1	Richard_Carl	1: 0.276443
+Allison_Searing	1	Amy_Gale	1: -0.163449
+Chante_Jawan_Mallard	1	Muhammad_Ali	5: 0.273681
+Adam_Kennedy	1	Amelie_Mauresmo	19: 0.339969
+Bill_Frist	4	Donald_Pettit	2: -0.118133
+Barbara_Roberts	1	Kirsten_Clark	1: 0.575093
+Tony_Shalhoub	1	4: 0.103119
+Alisha_Richman	1	Spencer_Abraham	9: -0.166706
+Andrew_Shutley	1	Charles_Taylor	7: 0.188754
+Amporn_Falise	1	Christiane_Wulff	1: -0.242626
+Alex_Corretja	1	Tippi_Hedren	2: 0.341139
+Al_Cardenas	1	Mary_Landrieu	3: -0.630072
+Ahmed_Ghazi	1	Henry_Suazo	1: 0.455939
+Assad_Ahmadi	1	Jose_Cevallos	1: 0.153371
+Todd_Haynes	1	3: -0.0342041
+Agbani_Darego	1	Malik_Mahmud	1: -0.0651674
+Amanda_Marsh	1	Svetlana_Koroleva	2: 0.189351
+Ann_Godbehere	1	Paul_Newman	1: 0.433922
+Astou_Ndiaye-Diatta	1	Scott_Yates	1: -0.23126
+Bill_Frist	2	Malcolm_Wild	1: 0.186627
+Bill_Curry	1	Candice_Bergen	1: -0.150703
+Amporn_Falise	1	Liza_Minnelli	2: -0.152968
+Anne_McLellan	2	Richard_Penniman	1: 0.155422
+Anne_McLellan	2	Roman_Tam	1: 0.0386119
+Adel_Al-Jubeir	1	Elisabeth_Welch	1: 0.366644
+Bing_Crosby	1	John_Moxley	1: -0.20249
+Ain_Seppik	1	Donald_Regan	1: 0.033024
+Allison_Searing	1	Mark_Martin	1: -0.0618166
+Barbara_Bach	1	Eli_Rosenbaum	1: 0.28188
+Annie_Chaplin	1	Ion_Tiriac	1: -0.33592
+Asif_Ali_Zardari	1	Cristina_Torrens_Valero	1: -0.430703
+Carey_Lowell	1	Helio_Castroneves	1: -0.0302268
+Bing_Crosby	1	Eric_Bana	1: 0.175247
+Christine_Todd_Whitman	5	Neil_Goldman	1: -0.130228
+Alexandra_Rozovskaya	1	Don_King	1: 0.281011
+Amelie_Mauresmo	6	Terri_Clark	1: -0.0776528
+Ali_Fallahian	1	Mohammed_Abulhasan	1: 0.417738
+Buddy_Ryan	1	Roy_Romanow	1: -inf
+Betsy_Coffin	1	Gerard_Tronche	1: -0.198511
+Claire_De_Gryse	1	Soenarno	1: 0.0516736
+Buddy_Ryan	1	Laurel_Clark	1: -inf
+Ben_Cohen	1	Roger_Etchegaray	1: 0.62934
+Brian_Griese	1	Jennie_Garth	1: -0.767309
+Angela_Mascia-Frye	1	Derrick_Taylor	1: -0.287669
+Annie_Chaplin	1	Michael_Keaton	1: -0.566491
+Bill_Kollar	1	Phillip_Seymor_Hoffmann	1: 0.0547378
+Ashlea_Talbot	1	Sean_Patrick_Thomas	1: 0.482209
+Beecher_Ray_Kirby	1	Hashan_Tillakaratne	1: 0.0380534
+Brian_Cowen	2	Dave_Johnson	1: -0.10622
+Bill_Carmody	1	Michael_Sheehan	1: 0.020482
+Brandon_Robinson	1	Mitchell_Garabedian	1: -0.0136784
+Amporn_Falise	1	Zhang_Yimou	1: -0.426178
+Candice_Bergen	2	Jake_Gyllenhaal	2: 0.49059
+Ann_Godbehere	1	Tatiana_Kennedy_Schlossberg	1: 0.655613
+Anne_Krueger	3	Lucrecia_Orozco	1: -0.346254
+Annette_Lu	1	Svetlana_Belousova	1: 0.559972
+Bob_Iger	1	Steve_Lavin	6: 0.339067
+Cedric_Benson	1	Greg_Hodge	1: -0.156196
+Annie_Chaplin	1	Gloria_Gaynor	1: 0.440086
+Chen_Shui-bian	2	Simon_Cowell	1: -0.135165
+Bruce_Willis	1	Heather_Mills	2: 0.424362
+Amy_Gale	1	Frank_Murkowski	1: 0.00300925
+Anna_Chicherova	1	Bob_Iger	1: -0.307278
+Bob_Riley	1	Jim_Harrick	1: 0.0237745
+Billy_Boyd	1	Liza_Minnelli	3: -0.327043
+Ashley_Judd	1	Pat_Burns	1: 0.635037
+Brooke_Adams	1	Hussam_Mohammed_Amin	1: 0.413432
+Andrew_Caldecott	1	Joe_Strummer	1: -0.223382
+Armando_Avila_Panchame	1	Hana_Urushima	1: -0.138385
+Arthur_Johnson	1	Steve_Pagliuca	1: -0.233672
+Ana_Palacio	6	Robert_Gordon_Card	1: -0.0247377
+Casey_Crowder	1	Joe_Nichols	1: -0.150396
+Bono	2	Se_Hyuk_Joo	1: 0.195428
+Charmaine_Crooks	1	Esad_Landzo	1: -0.104699
+Begum_Khaleda_Zia	1	Jesse_Jackson	5: 0.186816
+Bill_Carmody	1	Tippi_Hedren	1: 0.710106
+Brandon_Lloyd	1	Zach_Parise	1: -0.289488
+Darvis_Patton	1	Tammy_Lynn_Michaels	1: -0.245329
+Brad_Miller	1	Chris_Noth	1: -0.0468319
+Augustin_Calleri	4	John_Jones	1: -0.543348
+Ben_Cohen	1	Zach_Parise	1: 0.310404
+Carson_Daly	1	Matthew_During	1: 0.421969
+Chen_Shui-bian	2	William_Nessen	1: -0.270222
+Camille_Lewis	1	Keith_Lockhart	1: 0.036323
+Brooke_Adams	1	Gilberto_Rodriguez_Orejuela	2: -0.266076
+Antonio_Palocci	4	Donald_Regan	1: 0.140318
+Carey_Lowell	1	Joshua_Harapko	1: -0.227409
+Aretha_Franklin	1	Marc_Racicot	1: 0.164039
+Bill_McBride	8	John_Rowland	1: 0.227429
+Caroline_Dhavernas	1	James_Smith	1: -0.362657
+Barbara_Becker	1	Gerhard_Boekel	1: -0.434486
+Carlo_Ancelotti	1	Hugh_Miller	1: 0.621313
+Denise_van_Outen	1	Kevin_Satterfield	1: 0.262981
+Dennis_Kozlowski	2	James_Ivory	1: 0.693736
+Candice_Bergen	1	Masum_Turker	2: 0.0615819
+Chen_Shui-bian	3	Elizabeth_Smart	1: 0.213134
+Billy_Boyd	1	Robin_Williams	1: -0.0226624
+Candice_Bergen	2	Prospero_Pichay	1: -0.109175
+Calvin_Joseph_Coleman	1	Victor_Garber	1: -0.11113
+Bill_Sizemore	1	Calista_Flockhart	3: 0.0799077
+Camille_Lewis	1	Melissa_Etheridge	1: -0.0550001
+Claire_Leger	2	Elin_Nordegren	2: -0.0810343
+Carrie-Anne_Moss	4	Mike_Richter	1: 0.0278197
+Babe_Ruth	1	Joshua_Perper	1: -0.44262
+Carlos_Ghosn	1	Renee_Zellweger	11: 0.25096
+Bob_Iger	1	Brian_Cowen	1: -0.0763513
+Cindy_Taylor	1	Melissa_Joan_Hart	1: 0.414526
+Charlie_Sheen	1	Janice_Goldfinger	1: -0.0945832
+Casey_Crowder	1	Laszlo_Kovacs	1: 0.206003
+Chris_Andrews	1	Claire_De_Gryse	1: -0.092746
+Bono	1	Chen_Shui-bian	2: -0.551961
+Carly_Gullickson	1	Mike_Helton	2: 0.411273
+Brandon_Larson	1	James_Williams	1: 0.537127
+Carlos_Iturgaitz	1	Francisco_Maturana	1: -0.353639
+Carlos_Beltran	1	Shoshannah_Stern	1: -0.395835
+Cecilia_Cheung	1	Simon_Chalk	1: -0.249724
+Christine_Ebersole	2	Vincent_Cianci_Jr	1: -0.0132365
+Charla_Moye	1	Robert_Nillson	1: 0.348967
+Cecilia_Cheung	1	Kirsten_Clark	1: 0.587036
+Chris_Byrd	1	David_Alpay	1: 0.462895
+Carlos_Manuel_Pruneda	1	Claudia_Coslovich	1: -0.417699
+Dan_Bylsma	1	Scott_Yates	1: 0.554876
+Cecilia_Chang	1	Jeffery_Hendren	1: 0.539225
+Charlie_Sheen	1	Deece_Eckstein	1: 0.0729341
+Calvin_Joseph_Coleman	1	Ekaterina_Dmitriev	1: -0.167401
+Christian_Longo	2	Dustan_Mohr	1: 0.473646
+Dave_Johnson	1	Hank_Aaron	1: 0.0514129
+Charley_Armey	1	Jose_Cevallos	1: -inf
+Charles_Cope	1	John_Franco	1: 0.398203
+Cesar_Maia	2	Karin_Viard	1: -0.194915
+Camilla_Parker_Bowles	2	Mary_Matalin	1: 0.253696
+Don_Lake	1	Elena_Dementieva	1: -3.40282e+38
+Dariusz_Michalczewski	1	Julien_Boutter	1: -3.40282e+38
+Damarius_Bilbo	1	Janis_Ruth_Coulter	1: 0.287298
+Chris_Byrd	1	Lawrence_Di_Rita	1: 0.534929
+Chang_Jae_On	1	Oracene_Williams	1: -0.121061
+Dennis_Kozlowski	2	Wendy_Selig	1: 0.188532
+Charla_Moye	1	Joe_Mantegna	1: 0.116172
+Charlie_Zaa	2	William_Harrison	1: -0.00225977
+Colin_Campbell	1	Matt_Walters	1: 0.122359
+Charmaine_Crooks	1	Shigeru_Ishiba	1: -0.0675583
+Dean_Sheremet	1	Marc_Racicot	1: -0.200088
+Claire_Danes	1	Mitchell_Potter	1: -0.0257218
+Chita_Rivera	2	Jose_Luis_Chilavert	1: -0.288593
+Darvis_Patton	1	Gordon_Lightfoot	1: 0.156868
+Courtney_Love	1	Tsutomu_Takebe	1: -0.079053
+David_Kelley	1	Gerald_Calabrese	1: 0.0856461
+Christiane_Wulff	1	Paul_Schrader	1: 0.0312013
+Christine_Todd_Whitman	2	Peter_Rasch	1: -0.294853
+Daniel_Montgomery	1	Hassan_Wirajuda	1: -0.170434
+Conchita_Martinez	1	Moby	1: 0.62811
+Chawki_Armali	1	Hilmi_Akin_Zorlu	1: 0.851578
+Diane_Green	1	Tim_Salmon	1: -0.0128868
+Colleen_OClair	1	Kim_Hong-gul	1: 0.056206
+Eric_Dubin	1	Yang_Pao-yu	1: 0.378663
+Fran_Drescher	2	William_Martin	1: -0.231289
+Dan_Bylsma	1	Jim_Parque	1: 0.0118703
+Coleen_Rowley	1	Courtney_Love	1: 0.3553
+Chris_Noth	1	Frank_Sinatra	1: 0.302383
+Flor_Montulo	1	Steve_Blankenship	1: -0.394724
+Edward_Egan	1	Jim_Abbott	1: -inf
+Don_Carcieri	1	Jane_Rooney	1: 0.343493
+Claire_De_Gryse	1	Jim_Parque	1: -0.351255
+Elaine_Chao	1	Wilbert_Elki_Meza_Majino	1: -0.137752
+Christopher_Russell	1	Rosario_Dawson	1: 0.204931
+Cora_Cambell	1	Todd_Petit	1: 0.256919
+Chea_Sophara	1	Muhammad_Ali	6: 0.116027
+Enrica_Fico	1	Erwin_Abdullah	1: -inf
+Chris_Andrews	1	Elinor_Caplan	2: 0.368591
+Filip_De_Winter	1	Sue_Grafton	1: -0.22425
+Daniel_Zelman	1	David_Surrett	1: 0.110015
+Edward_Belvin	1	William_Harrison	1: 0.243292
+Cristina_Torrens_Valero	1	Damarius_Bilbo	1: 0.123012
+Don_King	1	Philip_Zalewski	1: 0.371528
+Eric_Snow	1	Robert_McKee	1: -0.19822
+Damarius_Bilbo	1	Sheila_Taormina	1: -0.25177
+Cristina_Torrens_Valero	1	Etta_James	1: -0.102614
+Dick_Armey	1	Tom_Glavine	2: 0.0664996
+Donald_Keck	1	Julia_Ormond	1: -0.504444
+Dennis_Kozlowski	2	Regina_Ip	1: -0.405442
+Darvis_Patton	1	Estelle_Morris	1: 0.515439
+Daniel_Comisso_Urdaneta	1	Jean-Marc_de_La_Sabliere	1: 0.728053
+Edward_Seaga	1	Fatmir_Limaj	1: 0.882965
+Festus_Mogae	1	Neil_Moritz	1: -0.195433
+Elena_Dementieva	1	Wilton_Gregory	1: -inf
+Guillaume_Cannet	1	Mark_Mulder	1: 0.307591
+Fred_Durst	1	Tara_Reid	1: -0.165334
+Dan_Ackroyd	1	Nikki_Teasley	1: -0.313708
+Edward_James_Olmos	1	Jesse_Harris	3: -inf
+Donald_Rumsfeld	40	Tamika_Catchings	1: -0.107946
+Colleen_Ryan	1	Noah_Wyle	2: 0.111096
+Diane_Green	1	Ruth_Christofferson	1: 0.144037
+Filip_De_Winter	1	Stuart_Townsend	1: -0.202634
+Fred_Durst	1	Rose_Linkins	1: -0.0476785
+Dominique_de_Villepin	13	Hanns_Schumacher	1: 0.0134064
+Donald_Pettit	3	Michel_Kratochvil	1: -0.0229311
+Gary_Leon_Ridgway	1	Phillip_Seymor_Hoffmann	1: 0.229724
+Isaiah_Washington	2	Lee_Baca	1: 0.166577
+David_Surrett	1	Oracene_Williams	1: 0.22531
+David_Braley	1	Gerard_Tronche	1: 0.286382
+Gina_Gershon	1	Stacey_Dales-Schuman	1: 0.01492
+Denzel_Washington	4	Sung_Hong_Choi	1: -0.0431671
+Daniele_Nardello	1	Peter_Hartz	1: 0.0916744
+Frank_Van_Ecke	1	Gary_Gero	1: -0.549106
+Franco_Frattini	1	Gholamreza_Aghazadeh	1: 0.374097
+Derrick_Battie	1	Lisa_Leslie	1: -0.202824
+Elinor_Caplan	1	Henning_Scherf	1: -0.496132
+Jen_Bice	1	Martha_Burk	2: 0.653838
+Elisabeth_Welch	1	Francisco_Maturana	1: 0.301027
+Francis_Ricciardone	1	Gene_Sauers	1: 0.161607
+Eddie_Sutton	1	George_Maxwell_Richards	1: 0.0515683
+Elliott_Mincberg	1	Gene_Orza	1: -0.346513
+Eric_Lindros	1	Melvin_Talbert	1: -0.131178
+Fabiola_Zuluaga	1	Rose_Linkins	1: -0.792837
+Farouk_Kaddoumi	1	Will_Smith	2: -0.183096
+Gwyneth_Paltrow	5	Mike_Richter	1: -0.1463
+Donna_Walker	1	Phil_Bredesen	1: -0.223451
+Don_King	1	Tab_Baldwin	1: 0.605286
+Hermann_Maier	1	Robin_Williams	1: 0.390313
+Dirk_Kempthorne	1	George_Tenet	2: 0.279046
+Flavia_Pennetta	1	Mikulas_Dzurinda	2: -0.21264
+Elin_Nordegren	2	Ghassan_Elashi	1: -0.0330726
+Hubie_Brown	1	Yoon_Jeong_Cho	1: -0.18414
+Felipe_Perez_Roque	2	Lloyd_Ward	2: 0.188205
+Gordon_Brown	12	Monica_Gabrielle	1: 0.332174
+David_Shayler	1	Peter_Mullan	1: -0.385161
+Edith_Masai	1	Idi_Amin	1: 0.928897
+Eliott_Spitzer	1	Jerry_Bruckheimer	1: -0.0428886
+Koichi_Tanaka	1	Sterling_Hitchcock	1: 0.320806
+Hunter_Bates	1	James_Williams	1: 0.415987
+Janis_Ruth_Coulter	1	Laurent_Woulzy	1: -0.27546
+Islam_Karimov	1	Shireen_Amir_Begum	1: 0.451314
+Jean-Pierre_Raffarin	2	Robert_Horan	2: -0.172744
+Frank_Sinatra	1	Vicente_Fox	23: -0.25537
+Gregory_Hines	1	Mary_Frances_Seiter	1: 0.164322
+Gary_Leon_Ridgway	1	Lisa_Raymond	1: 0.636618
+Elin_Nordegren	1	Fredric_Seaman	1: 0.143296
+Jack_Welch	1	Rick_Dinse	2: 1.1019
+James_Franco	2	Lokendra_Bahadur_Chand	1: -0.0238943
+Gunilla_Backman	1	Jennifer_Granholm	1: 0.381893
+Georgia_Giddings	1	Johnny_Carson	1: -0.0618215
+Farouk_Kaddoumi	1	Gina_Gershon	1: -0.00285547
+Gregory_Peck	1	John_Lawrence	1: -0.199151
+Fred_Durst	1	Patricia_Phillips	1: -0.386737
+Gunilla_Backman	1	Ray_Sherman	1: -0.0391234
+Kristin_Davis	3	Steven_Van_Zandt	1: -0.0311333
+Gideon_Yago	1	Robert_Gordon_Card	1: -0.472476
+Ghassan_Elashi	1	Jesse_Ventura	2: 0.321708
+Lawrence_Roberts	1	Malik_Mahmud	1: 0.14141
+John_McCallum	1	Mark_Andrew	1: -0.238491
+Elizabeth_Regan	1	Pierre_Boulanger	2: -0.232374
+Floyd_Mayweather	1	Lou_Lang	1: 0.278455
+George_Foreman	1	George_Lucas	1: 0.0797572
+Eric_Lindros	1	Sterling_Hitchcock	1: 0.119458
+Ghassan_Elashi	1	Peter_Rasch	1: 0.137048
+Gordon_Campbell	1	Pierre_Boulanger	2: -0.284213
+Gerhard_Schroeder	3	Izzat_Ibrahim	1: 0.347449
+Frederick_Madden	1	Luis_Ernesto_Derbez_Bautista	3: -0.242784
+Jen_Bice	1	Lily_Tomlin	2: -0.145209
+Janet_Chandler	1	Zoe_Ball	1: 0.0801505
+Harvey_Fierstein	1	Mike_Slive	1: 0.0273034
+Gustavo_Franco	1	Melissa_Joan_Hart	1: 0.313042
+Jenna_Elfman	1	Steffi_Graf	5: -0.140446
+Gregory_Geoffroy	2	Paul_Burrell	11: 0.668019
+Jan_Paul_Miller	1	Lynne_Slepian	1: 0.144455
+Ivan_Lee	1	Paul-Henri_Mathieu	3: 0.20392
+Hank_Aaron	1	Ron_Howard	2: 0.365496
+Grace_Kelly	1	Leslie_Moonves	1: 0.0226818
+Guillaume_Cannet	1	Mohammad_Khatami	5: -0.241771
+Ion_Tiriac	1	Lawrence_Roberts	1: 0.201581
+Gerard_Tronche	1	Jana_Pittman	1: 0.0409818
+Joaquin_Phoenix	1	Kajsa_Bergqvist	1: -inf
+Glenn_Tilton	1	Victor_Hanescu	1: 0.0359604
+Jalal_Talabani	1	Jean-Marc_Olive	1: 0.0310686
+Jean-Pierre_Raffarin	6	Paul_Kariya	1: 0.221499
+Gary_Sayler	1	Nila_Ferran	1: 0.371256
+Harland_Braun	1	Lisa_Leslie	1: -0.00508771
+Gregory_Peck	1	John_Lynch	1: 0.297402
+Jeanne_Anne_Schroeder	1	Yoriko_Kawaguchi	13: -0.102753
+Gordon_Lightfoot	1	Janez_Drnovsek	1: -0.0106659
+Jan_Ullrich	1	William_Rehnquist	1: -0.0209579
+Margie_Puente	1	Rafiq_Hariri	1: 0.127092
+Hussam_Mohammed_Amin	1	Mike_Smith	1: -0.0215147
+Leonard_Glick	1	Terrence_Trammell	1: 0.161649
+Jack_Welch	1	William_Umbach	1: 0.162813
+Izzat_Ibrahim	1	Tina_Sinatra	1: -0.0556217
+John_Garamendi	2	Peter_Goldmark	1: -0.424351
+Gwendal_Peizerat	2	Joe_Nichols	2: 0.15961
+Jose_Bove	1	Michalis_Chrisohoides	1: -0.0606624
+Kaoru_Hasuike	1	Tom_Foy	1: -0.372323
+Helene_Eksterowicz	1	Mario_Lemieux	1: 0.080021
+Halbert_Fillinger	1	Rachel_Hunter	1: 0.623503
+Imad_Moustapha	1	Will_Ofenheusle	1: -0.348925
+Jason_Mewes	1	Will_Smith	1: -0.166723
+Greg_Kinnear	1	Tim_Salmon	1: -0.0402825
+John_Mayer	3	Miguel_Jimenez	1: 0.2454
+Helio_Castroneves	1	Joxel_Garcia	1: 0.593325
+Kim_Yong-il	2	Terri_Clark	1: -0.418068
+Jennifer_Keller	4	Paula_Abdul	1: -0.144588
+Jim_Cantalupo	1	Joe_Pantoliano	1: 0.44783
+Jason_White	1	Wolfgang_Clement	1: 0.902856
+John_Kerr	1	Susan_Whelan	1: -0.00140669
+Ismail_Merchant	1	Joseph_Deiss	1: -0.0631278
+Lisa_Murkowski	1	Svetlana_Belousova	1: 0.390765
+Jeane_Kirkpatrick	1	Tamika_Catchings	1: 0.566489
+Howard_Smith	2	Tim_Pawlenty	1: 0.11045
+Irina_Yatchenko	1	Pedro_Solbes	4: -0.467919
+Katie_Boone	1	Terri_Clark	1: -inf
+Jim_Hahn	4	Vicente_Fernandez	2: 0.169924
+Jerry_Bruckheimer	1	John_Blaney	1: 0.355447
+Jerry_Jones	1	Robert_Woody_Johnson	1: 0.109071
+Jorge_Quiroga	1	Ramona_Rispton	1: 0.476809
+Lea_Fastow	1	Todd_Parrott	1: 0.0110835
+Jennifer_Thompson	1	Serge_Melac	1: 0.464829
+Iban_Mayo	2	Yves_Brodeur	1: -0.481924
+Khader_Rashid_Rahim	1	Martha_Burk	1: -0.442618
+Leslie_Wiser_Jr	1	Mireya_Moscoso	1: 0.691876
+Joe_Pantoliano	1	Robin_Tunney	1: -0.483462
+Juan_Carlos	1	Patricia_Phillips	1: 0.299337
+Kevin_Gil	1	Mary_Bono	1: 0.376212
+Judy_Dean	1	Kristanna_Loken	1: -0.285142
+Lena_Katina	1	Queen_Noor	1: 1.00437
+Jose_Bove	1	Princess_Diana	1: 0.0816835
+Jenna_Elfman	1	Mack_Brown	1: 0.362777
+Jason_Clermont	1	Vladimir_Ustinov	1: 0.427473
+Jim_Letten	1	Victor_Hanescu	1: 0.178157
+Matt_Dillon	1	Regina_Ip	1: -0.0777661
+Michael_Sheehan	1	Vincent_Cianci_Jr	1: -0.083872
+Khader_Rashid_Rahim	1	Michael_Arif	1: 0.0514486
+Karl-Heinz_Rummenigge	1	Wayne_Newton	1: 0.18043
+Jorge_Arce	1	Samuel_Waksal	3: 0.588611
+Hutomo_Mandala_Putra	1	Thomas_Mesereau_Jr	1: 0.153593
+Hussam_Mohammed_Amin	1	Princess_Hisako	1: -0.18825
+Jeane_Kirkpatrick	1	Richard_Carl	1: 0.233939
+John_Rowland	2	Robert_Lee_Yates_Jr	1: 0.211843
+Jeannette_Biedermann	1	Roy_Moore	6: 0.314134
+Jeffrey_Pfeffer	1	Terry_Lynn_Barton	1: 0.105521
+James_Lockhart	1	Lisa_Girman	1: 0.24417
+Jessica_Biel	1	Jim_Freudenberg	1: 0.143609
+Jim_Hahn	4	Vaclav_Havel	3: -0.0866789
+Isabelle_Huppert	1	Pedro_Solbes	1: -0.191208
+Jeremy_Greenstock	7	Jim_Flaherty	1: -0.213226
+Laurel_Clark	1	Rahul_Dravid	1: -0.115247
+Maria_Callas	1	Melchor_Cob_Castro	1: 0.485813
+Ludwig_Ovalle	1	Mauricio_Macri	1: 0.19582
+James_Ivory	1	Paul_Martin	7: -0.224295
+Julio_Cesar_Chavez	1	Marc_Racicot	1: -0.0746387
+Jorge_Quiroga	1	Surakait_Sathirathai	1: 0.487972
+Ismail_Cem	1	Seth_Gorney	1: 0.0289318
+Laszlo_Kovacs	1	Michael_Arif	1: 0.507271
+Keith_Osik	1	Robert_Nardelli	1: -0.0100815
+Jason_Kapono	1	Patricia_Medina	1: 0.138649
+Jose_Luis_Chilavert	1	Sofyan_Dawood	1: -0.136156
+Laura_Elena_Harring	1	Rowan_Williams	1: 0.0930422
+Jim_Calhoun	1	Perry_Farrell	1: 0.700568
+John_Franco	1	Teri_Files	1: -0.112831
+Lee_Baca	1	Pat_Summerall	1: -0.11996
+Jenna_Elfman	1	Willie_Wilson	1: 0.0896509
+Kevin_Hearn	1	Todd_Haynes	3: -0.227024
+Jesse_Ventura	3	Roy_Romanow	1: 0.428121
+Maryn_McKenna	1	Tim_Pawlenty	1: -0.0915837
+Lawrence_Di_Rita	1	Tim_Allen	2: 0.210064
+Jesse_Ventura	1	Reggie_Lewis	1: -0.00957811
+Mikhail_Youzhny	2	Vince_Dooley	1: -0.759342
+Miguel_Aldana_Ibarra	1	Mikhail_Gorbachev	1: 0.19789
+Kent_Robinson	1	Marquier_Montano_Contreras	1: 0.088186
+Karen_Allen	1	Rick_Bragg	1: -0.0631764
+Mike_Helton	2	Reggie_Lewis	1: 0.0604617
+Masum_Turker	1	Norman_Mineta	1: -0.092597
+Makhdoom_Amin_Fahim	1	Tang_Jiaxuan	5: 0.00232775
+John_Walsh	2	Paul_Hogan	2: 0.252401
+John_Blaney	2	Sam_Brownback	1: -0.139078
+Manijeh_Hekmat	1	Se_Hyuk_Joo	1: -0.226242
+Mark_Mishkin	1	Shawn_Marion	1: -0.305476
+Marricia_Tate	1	Rita_Moreno	2: -0.225692
+Mark_Dacey	2	Russ_Ortiz	1: -0.0358374
+John_Lynch	1	Stefano_Gabbana	1: -0.0985686
+Priscilla_Presley	1	Sergey_Lavrov	5: -0.233986
+Mohammed_Baqir_al-Hakim	3	Neil_Goldman	1: -0.18106
+Julia_Ormond	1	Randy_Dryer	1: -0.311631
+Kurt_Hellstrom	1	Manuel_Pellegrini	1: -0.609899
+Mufti_Mohammad_Syed	1	Ralf_Schumacher	4: -0.0745934
+Kosuke_Kitajima	2	Qazi_Hussain_Ahmed	1: -inf
+Priscilla_Presley	1	Victoria_Beckham	3: -0.0378446
+Marc_Anthony	1	Vince_Vaughan	1: 0.079741
+Paul_Kariya	1	Shannon_OBrien	2: 0.120721
+Michael_Smith_Foster	1	Rupert_Murdoch	1: 0.0847494
+Mario_Lemieux	1	Pedro_Solbes	4: 0.323236
+Michael_Linscott	1	Robin_Tunney	1: -inf
+Nick_Reilly	1	Tassos_Papadopoulos	1: 0.593637
+Mamdouh_Habib	1	Polona_Bas	1: -0.763151
+Malcolm_Wild	1	Owen_Wilson	2: 0.221363
+John_Belushi	1	Mahima_Chaudhari	1: -0.0379175
+Park_Jie-won	1	Steve_Patterson	1: -0.412215
+Matthias_Sammer	1	Robbie_Naish	1: -0.0673786
+Mike_Leach	1	Thomas_Haeggstroem	1: 0.326098
+Leisel_Jones	1	Steven_Hatfill	1: 0.698448
+Johnny_Depp	2	Scott_Dickson	1: 0.420014
+Luis_Pujols	1	Rohman_al-Ghozi	1: 0.0650913
+Mitchell_McLaughlin	1	Timothy_Goebel	1: 0.0617146
+Nathalie_Gagnon	1	Rupert_Grint	2: 0.365142
+Mary_Landrieu	1	Robert_Gordon_Card	1: 0.443214
+Patty_Sheehan	1	William_Nessen	1: 0.509961
+Marissa_Jaret_Winokur	1	Vincent_Sombrotto	1: 0.0828975
+Mark_Mishkin	1	Nick_Reilly	1: 0.804187
+Nicolas_Sarkozy	1	Shanna_Zolman	1: -0.0402905
+Mark_Martin	1	Vladimir_Spidla	2: 0.370832
+Karen_Allen	1	LeRoy_Millette_Jr	1: -0.311594
+Leonard_Schrank	1	Ozzy_Osbourne	1: -0.116174
+Michael_Phelps	5	Pat_Burns	2: -0.0388223
+Rick_Caruso	1	Steve_Wariner	1: 0.440598
+Ronaldo_Luis_Nazario_de_Lima	1	Samuel_Waksal	2: 0.0110285
+Lisa_Raymond	2	Robert_Redford	7: 0.0519374
+Michelle_Yeoh	5	Shoshannah_Stern	1: -0.347578
+Phil_Jackson	1	Richard_Penniman	1: 0.432273
+Miles_Stewart	1	Yasushi_Akashi	1: 0.742133
+Tatiana_Kennedy_Schlossberg	1	Thomas_Watjen	1: 0.320545
+Paul_Hogan	1	Thomas_Watjen	1: 0.120786
+Pierre_Boulanger	1	Shania_Twain	1: 0.440141
+Michael_J_Sheehan	1	Michael_Smith_Foster	1: 0.693148
+Maryn_McKenna	1	Shawn_Marion	1: 0.0547702
+Manijeh_Hekmat	1	Richard_Carl	1: 0.340862
+Rick_Perry	6	Svetlana_Koroleva	1: -0.261599
+Paul_Hogan	1	William_Martin	1: 0.487598
+Mirela_Manjani	1	Robert_Woody_Johnson	1: 0.360201
+Norm_Coleman	2	Osmond_Smith	1: -0.156746
+Norman_Mailer	1	Steven_Curtis_Chapman	1: -0.0945347
+Ricky_Cottrill	1	Sananda_Maitreya	1: 0.389617
+Paul_Michael_Daniels	1	Simon_Chalk	1: 0.327765
+Miguel_Jimenez	1	Paris_Hilton	1: 0.286748
+Neil_Goldman	1	Niall_Connolly	1: 0.0544076
+Paul_Schrader	1	Teri_Files	1: -0.0931393
+Phillipe_Comtois	1	Richard_Carl	1: 0.0839691
+Mona_Ayoub	1	Todd_Parrott	1: -0.122489
+Melissa_Etheridge	2	Teri_Files	1: 0.159535
+Paula_Prentiss	1	Thomas_Mesereau_Jr	1: 0.130662
+Sami_Al-Arian	1	Tommy_Lasorda	1: -0.0224666
+Sarah_Canale	1	Steven_Curtis_Chapman	1: -0.455042
+Oliver_Neuville	1	Shawn_Marion	1: -0.512629
+Richard_Butler	1	Victoria_Beckham	1: 0.240864
+Paul_Martin	1	Stephanie_Cohen_Aloro	1: 0.036637
+Mike_Maroth	1	Stefan_Holm	1: 0.0306801
+Mike_Slive	1	Paul_Sarbanes	3: 1.14973
+Susan_Whelan	1	Wolfgang_Schneiderhan	1: 0.271977
+Scott_Dalton	1	Tamara_Mowry	1: 0.0529151
+Sergio_Castellitto	1	Steve_Lavin	5: 0.163832
+Rod_Thorn	1	Yves_Brodeur	1: 0.291635
+Robert_Flodquist	1	Winona_Ryder	11: 0.0810748
+Tamara_Mowry	1	Zach_Parise	1: 0.300994
+Richard_Pennington	1	Stacy_Nelson	1: 0.689919
+Mikulas_Dzurinda	2	Shirley_Jones	1: 0.428085
+Sheila_Taormina	1	Stephan_Eberharter	1: 0.44817
+Peter_Fitzgerald	1	Zelma_Novelo	1: 0.0831743
+Sasha_Cohen	1	Valery_Giscard_dEstaing	5: -0.440682
+Rod_Stewart	3	Se_Hyuk_Joo	1: 0.292086
+Steve_Zahn	1	Tab_Baldwin	1: 0.10398
+Princess_Diana	1	Steffi_Graf	2: 0.292185
+Takeo_Fukui	1	Will_Ofenheusle	1: 0.0686364
+Shane_Mosley	1	Stacey_Dales-Schuman	1: 0.188415
+Stefano_Gabbana	1	Tang_Jiaxuan	3: -0.157363
+Pedro_Martinez	1	Stephen_Glassroth	1: 0.0162473
+Steve_Wariner	1	Toshi_Izawa	1: 0.0074527
+Rod_Stewart	1	Tom_Scully	1: -0.0619445
+Ron_Howard	1	Tim_Pawlenty	1: -0.085876
+Todd_Petit	1	Vicente_Fernandez	3: 0.146152
+Seth_Gorney	1	Wilton_Gregory	1: -0.346691
