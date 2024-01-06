@@ -1,0 +1,7 @@
+*.md
+./LICENSE
+./data/*
+./dockerfiles/*
+./build.sh
+./exec.sh
+./overview.png
