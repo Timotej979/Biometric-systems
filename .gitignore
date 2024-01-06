@@ -4,7 +4,7 @@
 
 # Exercise 2 - Datasets
 #Exercise2/container/lfw-dataset/*
-Exercise2/container/lfwa-dataset/*
+#Exercise2/container/lfwa-dataset/*
 
 # Project - Datasets
 Project/detectors/sbi/weights/*
