@@ -1,6 +1,3 @@
-Exercise1/* linguist-documentation=false
-Exercise1/* linguist-vendored
-Exercise2/* linguist-documentation=false
-Exercise2/* linguist-vendored
-Project/* linguist-documentation=false
-Project/* linguist-vendored
+*.jpg binary
+*.jpeg binary
+*.png binary
