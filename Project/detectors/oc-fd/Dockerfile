@@ -27,4 +27,4 @@ WORKDIR /
 
 # Set the entrypoint
 # Command: python3 /app/detector/src/model.py --train && python3 /app/detector/src/model.py --test && exit 0
-ENTRYPOINT [ "sh", "-c", "python3 /app/detector/src/model.py --train && python3 /app/detector/src/model.py --test && exit 0"]
+ENTRYPOINT [ "sh", "-c", "python3 /app/detector/src/model.py --train --test && exit 0"]

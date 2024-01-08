@@ -169,13 +169,16 @@ class ModelControler:
         else:
             self.test_root = test_root
 
-        if weights_path is None:
+        if weights_path is not None:
             # Find most recent weights that are saved in the output directory
-            self.weights_path = max(glob.glob('/output/*/*.pth'), key=os.path.getctime)
+            self.weights_path = weights_path
+            self.weights_flag = True
+        else:
+            self.weights_flag = False
 
         # Training parameters
         self.batch_size = 256
-        self.epochs = 100
+        self.epochs = 200
         self.logging_interval = 50
         self.lr_initial = 0.001
 
@@ -378,8 +381,8 @@ class ModelControler:
 
         # Save the trained weights
         current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f'weights_final_train-{train_losses[-1]:.3f}_val-{val_losses_df[-1]:.3f}_eer-{eers[-1]:.3f}_{current_datetime}.pth'
-        torch.save(model.state_dict(), os.path.join(self.output_dir + output_time_dir, filename))
+        weights_filename = f'weights_final_train-{train_losses[-1]:.3f}_val-{val_losses_df[-1]:.3f}_eer-{eers[-1]:.3f}_{current_datetime}.pth'
+        torch.save(model.state_dict(), os.path.join(self.output_dir + output_time_dir, weights_filename))
 
         # Plot loss over time
         plt.figure(figsize=(15, 10))
@@ -403,8 +406,7 @@ class ModelControler:
         filename = f'eer-auc.svg'
         plt.savefig( os.path.join(self.output_dir + output_time_dir, filename))
 
-        # TODO: Plot df eval vs morph eval loss over time. One should go down and the other up
-        # Plot df vs morph loss over time 
+        # Plot df vs real loss over time 
         plt.figure(figsize=(15, 10))
         plt.plot(range(len(val_losses_df[1:])), val_losses_df[1:], c="r")
         plt.plot(range(len(val_losses_r[1:])), val_losses_r[1:], c="dodgerblue")
@@ -415,10 +417,10 @@ class ModelControler:
         filename = f'reconstruction_score.svg'
         plt.savefig( os.path.join(self.output_dir + output_time_dir, filename))
 
-        plt.show()
-        
-        return
+        if not self.weights_flag:
+            self.weights_path = os.path.join(self.output_dir + output_time_dir, weights_filename)
 
+        return 
 
     # Test model
     def test_model(self):
@@ -448,14 +450,14 @@ class ModelControler:
 
         # Load dataset
         print('Loading the dataset...')
-        test_dataset = datasets.ImageFolder(self.test_dataset, transform=TRANSFORM_IMG_TEST)
+        test_dataset = datasets.ImageFolder(self.test_root, transform=TRANSFORM_IMG_TEST)
         test_loader = DataLoader(test_dataset, shuffle=False)
 
         # Create model
         model = VAE_CNN().to(device)
 
         # Load weights
-        ckpt = torch.load(weights_path)
+        ckpt = torch.load(self.weights_path)
         model.load_state_dict(ckpt)
         model = model.to(device)
 
@@ -468,7 +470,7 @@ class ModelControler:
         scores_df = []
         scores_r = []
 
-        dataset_name = self.test_dataset.split(os.sep)[-1]
+        dataset_name = self.test_root.split(os.sep)[-1]
         current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         model_name = f'oc-fd'
         output_time_dir = f'output_test_{current_datetime}_{dataset_name}_{model_name}'
@@ -557,8 +559,8 @@ class ModelControler:
         axs[1].set_ylabel('Frequency')
 
         # Add legend
-        real_patch = mpatches.Patch(color='blue', label='Bona-fide')
-        morph_patch = mpatches.Patch(color='green', label='Morph')
+        real_patch = mpatches.Patch(color='blue', label='Deepfake')
+        morph_patch = mpatches.Patch(color='green', label='Real')
         threshold_line = plt.Line2D([0], [0], color='red', linestyle='dashed', linewidth=2, label='Threshold')
         plt.legend(handles=[real_patch, morph_patch, threshold_line], loc='upper right')
         
