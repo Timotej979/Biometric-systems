@@ -2,8 +2,8 @@
 torchsummary
 scikit-image
 matplotlib
-seaborn
 tqdm
 scipy
 scikit-learn
 numpy
+glob2

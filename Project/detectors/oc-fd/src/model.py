@@ -1,5 +1,5 @@
 # Import the standard libraries
-import os, re, csv, time, datetime, argparse
+import os, glob, re, csv, time, datetime, argparse
 # Import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -9,8 +9,6 @@ from skimage import io, transform
 import numpy as np
 # Import tqdm
 from tqdm import tqdm
-# Import seaborn
-import seaborn as sns
 # Import collections
 from collections import Counter
 # Import sklearn
