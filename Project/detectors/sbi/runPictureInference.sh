@@ -4,7 +4,7 @@
 export CUDA_VISIBLE_DEVICES=*
 
 # Specify the path to the directory containing images
-image_directory="/datasets/face-forensics"
+image_directory="/datasets/face-forensics/test"
 
 # Specify the path to the weights file
 weights_file="weights/FFraw.tar"
