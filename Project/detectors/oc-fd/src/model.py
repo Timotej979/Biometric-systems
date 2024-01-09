@@ -568,6 +568,45 @@ class ModelControler:
         filename = f'distribution_{dataset_name}_{current_datetime}.svg'
         plt.savefig(os.path.join(self.output_dir + output_time_dir, filename))
 
+        # Calculate percission, recall and F1 score
+        precision, recall, thresholds_pr = metrics.precision_recall_curve(labels, scores, pos_label=0)
+        pr_auc = metrics.auc(recall, precision)
+
+        # Calculate F1 at threshold
+        f1_scores = [2 * (p * r) / (p + r + 1e-10) for p, r in zip(precision, recall)]
+        f1_max_idx = np.argmax(f1_scores)
+        f1_max_threshold = thresholds_pr[f1_max_idx]
+
+        # Log the output
+        out_string = f'PR AUC: {pr_auc:.4f}, F1 score: {f1_scores[f1_max_idx]:.4f}, F1 threshold: {f1_max_threshold:.4f}'
+        print(out_string)
+        with open(os.path.join(self.output_dir + output_time_dir, log_filename), 'a') as file:
+            file.write(out_string)
+            file.write(os.linesep)
+
+        # Plot Precision-Recall curve
+        plt.figure(figsize=(15, 10))
+        plt.plot(recall, precision, color='blue', lw=2, label='PR curve (AUC = {:.2f})'.format(pr_auc))
+        plt.scatter(recall[f1_max_idx], precision[f1_max_idx], marker='o', color='red', label='F1 point ({:.4f}, {:.4f})'.format(recall[f1_max_idx], precision[f1_max_idx]))
+        plt.xlabel('Recall')
+        plt.ylabel('Precision')
+        plt.title('Precision-Recall (PR) Curve')
+        plt.legend(loc="lower left")
+        filename = f'PR_{dataset_name}_{current_datetime}.svg'
+        plt.savefig(os.path.join(self.output_dir + output_time_dir, filename))
+
+        # Generate classification report
+        y_pred = (np.array(scores) > f1_max_threshold).astype(int)
+        target_names = ['Deepfake', 'Real']
+        classification_rep = metrics.classification_report(labels, y_pred, target_names=target_names)
+        print(classification_rep)
+        with open(os.path.join(self.output_dir + output_time_dir, log_filename), 'a') as file:
+            file.write(classification_rep)
+            file.write(os.linesep)
+
+        # Save the model
+        torch.save(model.state_dict(), os.path.join(self.output_dir + output_time_dir, 'model.pth'))
+
         return
 
 ####################################################################################################
