@@ -1,0 +1,2 @@
+Testing. Using /datasets/face-forensics/test/ for testing and using /output/output_train_20240108_214223_FF_split/weights_final_train-445.784_val-1335.893_eer-0.504_20240109_092609.pth for model weights.
+EER: 0.5122, EER treshold: 0.0347, BPCER(FPR)@EER: 0.5122, APCER(FNR)@EER: 0.5123

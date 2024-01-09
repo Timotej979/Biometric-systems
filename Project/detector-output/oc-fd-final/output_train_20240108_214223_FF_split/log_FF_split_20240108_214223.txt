@@ -1,0 +1,779 @@
+Training. Using /datasets/face-forensics/train/ for training and /datasets/face-forensics/val/ for validation.
+Train Epoch: 1 [0/62518 (0%)]	Loss: 16263.728516
+Train Epoch: 1 [12800/62518 (20%)]	Loss: 6121.056152
+Train Epoch: 1 [25600/62518 (41%)]	Loss: 3436.644531
+Train Epoch: 1 [38400/62518 (61%)]	Loss: 2533.139160
+Train Epoch: 1 [51200/62518 (82%)]	Loss: 2198.946777
+====> Epoch: 1 Average loss: 30432.5082, learning rate: 0.001, time per epoch: 0:12:16.561596
+====> Validation: deepfake images loss: 2378.891, real images loss: 2401.106, EER: 0.509, AUC: 0.490, BPCER(FPR)@EER: 0.509, APCER(FNR)@EER: 0.509
+Train Epoch: 2 [0/62518 (0%)]	Loss: 1961.686646
+Train Epoch: 2 [12800/62518 (20%)]	Loss: 1953.444824
+Train Epoch: 2 [25600/62518 (41%)]	Loss: 1872.452881
+Train Epoch: 2 [38400/62518 (61%)]	Loss: 1718.520874
+Train Epoch: 2 [51200/62518 (82%)]	Loss: 1660.304077
+====> Epoch: 2 Average loss: 1755.8196, learning rate: 0.001, time per epoch: 0:06:28.497809
+====> Validation: deepfake images loss: 2047.600, real images loss: 2074.283, EER: 0.507, AUC: 0.489, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 3 [0/62518 (0%)]	Loss: 1592.514404
+Train Epoch: 3 [12800/62518 (20%)]	Loss: 1536.737061
+Train Epoch: 3 [25600/62518 (41%)]	Loss: 1509.390869
+Train Epoch: 3 [38400/62518 (61%)]	Loss: 1461.221436
+Train Epoch: 3 [51200/62518 (82%)]	Loss: 1472.655029
+====> Epoch: 3 Average loss: 1482.4531, learning rate: 0.001, time per epoch: 0:03:26.968993
+====> Validation: deepfake images loss: 1904.418, real images loss: 1927.390, EER: 0.508, AUC: 0.490, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 4 [0/62518 (0%)]	Loss: 1343.404541
+Train Epoch: 4 [12800/62518 (20%)]	Loss: 1320.356934
+Train Epoch: 4 [25600/62518 (41%)]	Loss: 1358.713013
+Train Epoch: 4 [38400/62518 (61%)]	Loss: 1286.512085
+Train Epoch: 4 [51200/62518 (82%)]	Loss: 1294.768311
+====> Epoch: 4 Average loss: 1328.8232, learning rate: 0.001, time per epoch: 0:03:14.315797
+====> Validation: deepfake images loss: 1807.958, real images loss: 1832.227, EER: 0.508, AUC: 0.489, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 5 [0/62518 (0%)]	Loss: 1288.543823
+Train Epoch: 5 [12800/62518 (20%)]	Loss: 1302.076172
+Train Epoch: 5 [25600/62518 (41%)]	Loss: 1191.214722
+Train Epoch: 5 [38400/62518 (61%)]	Loss: 1232.663574
+Train Epoch: 5 [51200/62518 (82%)]	Loss: 1173.953369
+====> Epoch: 5 Average loss: 1215.8425, learning rate: 0.001, time per epoch: 0:03:14.765909
+====> Validation: deepfake images loss: 1716.023, real images loss: 1740.254, EER: 0.508, AUC: 0.490, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 6 [0/62518 (0%)]	Loss: 1154.416382
+Train Epoch: 6 [12800/62518 (20%)]	Loss: 1107.483032
+Train Epoch: 6 [25600/62518 (41%)]	Loss: 1133.075684
+Train Epoch: 6 [38400/62518 (61%)]	Loss: 1106.211670
+Train Epoch: 6 [51200/62518 (82%)]	Loss: 1110.977173
+====> Epoch: 6 Average loss: 1127.7960, learning rate: 0.001, time per epoch: 0:03:14.863171
+====> Validation: deepfake images loss: 1657.308, real images loss: 1677.731, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 7 [0/62518 (0%)]	Loss: 1093.960083
+Train Epoch: 7 [12800/62518 (20%)]	Loss: 1076.435425
+Train Epoch: 7 [25600/62518 (41%)]	Loss: 1077.987183
+Train Epoch: 7 [38400/62518 (61%)]	Loss: 1073.420044
+Train Epoch: 7 [51200/62518 (82%)]	Loss: 999.200439
+====> Epoch: 7 Average loss: 1054.3951, learning rate: 0.001, time per epoch: 0:03:14.656968
+====> Validation: deepfake images loss: 1621.421, real images loss: 1647.735, EER: 0.510, AUC: 0.489, BPCER(FPR)@EER: 0.510, APCER(FNR)@EER: 0.510
+Train Epoch: 8 [0/62518 (0%)]	Loss: 1023.966797
+Train Epoch: 8 [12800/62518 (20%)]	Loss: 1037.247925
+Train Epoch: 8 [25600/62518 (41%)]	Loss: 1002.692505
+Train Epoch: 8 [38400/62518 (61%)]	Loss: 971.119141
+Train Epoch: 8 [51200/62518 (82%)]	Loss: 963.982666
+====> Epoch: 8 Average loss: 994.0219, learning rate: 0.001, time per epoch: 0:03:14.484704
+====> Validation: deepfake images loss: 1571.974, real images loss: 1595.510, EER: 0.509, AUC: 0.490, BPCER(FPR)@EER: 0.509, APCER(FNR)@EER: 0.509
+Train Epoch: 9 [0/62518 (0%)]	Loss: 922.061035
+Train Epoch: 9 [12800/62518 (20%)]	Loss: 925.844666
+Train Epoch: 9 [25600/62518 (41%)]	Loss: 945.275879
+Train Epoch: 9 [38400/62518 (61%)]	Loss: 973.553345
+Train Epoch: 9 [51200/62518 (82%)]	Loss: 911.367676
+====> Epoch: 9 Average loss: 947.1578, learning rate: 0.001, time per epoch: 0:03:14.499583
+====> Validation: deepfake images loss: 1538.817, real images loss: 1562.799, EER: 0.509, AUC: 0.489, BPCER(FPR)@EER: 0.509, APCER(FNR)@EER: 0.509
+Train Epoch: 10 [0/62518 (0%)]	Loss: 944.423523
+Train Epoch: 10 [12800/62518 (20%)]	Loss: 952.260376
+Train Epoch: 10 [25600/62518 (41%)]	Loss: 933.700073
+Train Epoch: 10 [38400/62518 (61%)]	Loss: 927.800842
+Train Epoch: 10 [51200/62518 (82%)]	Loss: 915.802979
+====> Epoch: 10 Average loss: 901.6442, learning rate: 0.001, time per epoch: 0:03:14.491193
+====> Validation: deepfake images loss: 1519.486, real images loss: 1544.429, EER: 0.508, AUC: 0.488, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 11 [0/62518 (0%)]	Loss: 929.069397
+Train Epoch: 11 [12800/62518 (20%)]	Loss: 874.958923
+Train Epoch: 11 [25600/62518 (41%)]	Loss: 866.895020
+Train Epoch: 11 [38400/62518 (61%)]	Loss: 840.592102
+Train Epoch: 11 [51200/62518 (82%)]	Loss: 838.216187
+====> Epoch: 11 Average loss: 867.1807, learning rate: 0.001, time per epoch: 0:03:14.604146
+====> Validation: deepfake images loss: 1498.630, real images loss: 1518.300, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 12 [0/62518 (0%)]	Loss: 829.896729
+Train Epoch: 12 [12800/62518 (20%)]	Loss: 839.004150
+Train Epoch: 12 [25600/62518 (41%)]	Loss: 807.495605
+Train Epoch: 12 [38400/62518 (61%)]	Loss: 800.052368
+Train Epoch: 12 [51200/62518 (82%)]	Loss: 803.406128
+====> Epoch: 12 Average loss: 834.1811, learning rate: 0.001, time per epoch: 0:03:14.651567
+====> Validation: deepfake images loss: 1487.033, real images loss: 1510.812, EER: 0.507, AUC: 0.489, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 13 [0/62518 (0%)]	Loss: 834.528687
+Train Epoch: 13 [12800/62518 (20%)]	Loss: 847.805237
+Train Epoch: 13 [25600/62518 (41%)]	Loss: 833.481079
+Train Epoch: 13 [38400/62518 (61%)]	Loss: 797.958862
+Train Epoch: 13 [51200/62518 (82%)]	Loss: 796.979004
+====> Epoch: 13 Average loss: 809.9028, learning rate: 0.001, time per epoch: 0:04:43.748402
+====> Validation: deepfake images loss: 1475.130, real images loss: 1497.722, EER: 0.507, AUC: 0.490, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 14 [0/62518 (0%)]	Loss: 809.247192
+Train Epoch: 14 [12800/62518 (20%)]	Loss: 806.095337
+Train Epoch: 14 [25600/62518 (41%)]	Loss: 776.581055
+Train Epoch: 14 [38400/62518 (61%)]	Loss: 771.964966
+Train Epoch: 14 [51200/62518 (82%)]	Loss: 804.030151
+====> Epoch: 14 Average loss: 783.3589, learning rate: 0.001, time per epoch: 0:03:14.427944
+====> Validation: deepfake images loss: 1456.432, real images loss: 1480.305, EER: 0.508, AUC: 0.489, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 15 [0/62518 (0%)]	Loss: 809.660583
+Train Epoch: 15 [12800/62518 (20%)]	Loss: 780.065979
+Train Epoch: 15 [25600/62518 (41%)]	Loss: 778.824219
+Train Epoch: 15 [38400/62518 (61%)]	Loss: 775.703125
+Train Epoch: 15 [51200/62518 (82%)]	Loss: 753.530029
+====> Epoch: 15 Average loss: 765.1253, learning rate: 0.001, time per epoch: 0:03:14.625204
+====> Validation: deepfake images loss: 1429.114, real images loss: 1451.269, EER: 0.506, AUC: 0.490, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 16 [0/62518 (0%)]	Loss: 733.569885
+Train Epoch: 16 [12800/62518 (20%)]	Loss: 743.078247
+Train Epoch: 16 [25600/62518 (41%)]	Loss: 760.838623
+Train Epoch: 16 [38400/62518 (61%)]	Loss: 737.693970
+Train Epoch: 16 [51200/62518 (82%)]	Loss: 763.373535
+====> Epoch: 16 Average loss: 743.3194, learning rate: 0.001, time per epoch: 0:03:14.515758
+====> Validation: deepfake images loss: 1423.775, real images loss: 1446.908, EER: 0.508, AUC: 0.489, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 17 [0/62518 (0%)]	Loss: 781.779968
+Train Epoch: 17 [12800/62518 (20%)]	Loss: 746.819580
+Train Epoch: 17 [25600/62518 (41%)]	Loss: 726.140259
+Train Epoch: 17 [38400/62518 (61%)]	Loss: 737.870911
+Train Epoch: 17 [51200/62518 (82%)]	Loss: 753.085938
+====> Epoch: 17 Average loss: 732.7981, learning rate: 0.001, time per epoch: 0:03:14.609153
+====> Validation: deepfake images loss: 1423.418, real images loss: 1445.734, EER: 0.506, AUC: 0.490, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 18 [0/62518 (0%)]	Loss: 720.196167
+Train Epoch: 18 [12800/62518 (20%)]	Loss: 675.730774
+Train Epoch: 18 [25600/62518 (41%)]	Loss: 754.011841
+Train Epoch: 18 [38400/62518 (61%)]	Loss: 712.242737
+Train Epoch: 18 [51200/62518 (82%)]	Loss: 734.362366
+====> Epoch: 18 Average loss: 713.4800, learning rate: 0.001, time per epoch: 0:03:14.464101
+====> Validation: deepfake images loss: 1408.410, real images loss: 1430.774, EER: 0.506, AUC: 0.490, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 19 [0/62518 (0%)]	Loss: 687.214172
+Train Epoch: 19 [12800/62518 (20%)]	Loss: 724.853088
+Train Epoch: 19 [25600/62518 (41%)]	Loss: 702.881531
+Train Epoch: 19 [38400/62518 (61%)]	Loss: 686.257812
+Train Epoch: 19 [51200/62518 (82%)]	Loss: 693.736755
+====> Epoch: 19 Average loss: 707.1942, learning rate: 0.001, time per epoch: 0:03:14.609201
+====> Validation: deepfake images loss: 1404.210, real images loss: 1427.275, EER: 0.509, AUC: 0.490, BPCER(FPR)@EER: 0.509, APCER(FNR)@EER: 0.508
+Train Epoch: 20 [0/62518 (0%)]	Loss: 738.153076
+Train Epoch: 20 [12800/62518 (20%)]	Loss: 670.847046
+Train Epoch: 20 [25600/62518 (41%)]	Loss: 712.841248
+Train Epoch: 20 [38400/62518 (61%)]	Loss: 695.104736
+Train Epoch: 20 [51200/62518 (82%)]	Loss: 674.510742
+====> Epoch: 20 Average loss: 691.6916, learning rate: 0.001, time per epoch: 0:03:14.609830
+====> Validation: deepfake images loss: 1424.531, real images loss: 1446.199, EER: 0.507, AUC: 0.490, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 21 [0/62518 (0%)]	Loss: 699.288147
+Train Epoch: 21 [12800/62518 (20%)]	Loss: 695.657227
+Train Epoch: 21 [25600/62518 (41%)]	Loss: 646.656006
+Train Epoch: 21 [38400/62518 (61%)]	Loss: 655.337463
+Train Epoch: 21 [51200/62518 (82%)]	Loss: 724.527710
+====> Epoch: 21 Average loss: 681.5256, learning rate: 0.001, time per epoch: 0:03:14.798131
+====> Validation: deepfake images loss: 1390.546, real images loss: 1414.262, EER: 0.508, AUC: 0.489, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 22 [0/62518 (0%)]	Loss: 680.470215
+Train Epoch: 22 [12800/62518 (20%)]	Loss: 651.525940
+Train Epoch: 22 [25600/62518 (41%)]	Loss: 679.323975
+Train Epoch: 22 [38400/62518 (61%)]	Loss: 652.357788
+Train Epoch: 22 [51200/62518 (82%)]	Loss: 672.744263
+====> Epoch: 22 Average loss: 672.0776, learning rate: 0.001, time per epoch: 0:03:14.447124
+====> Validation: deepfake images loss: 1392.540, real images loss: 1415.703, EER: 0.506, AUC: 0.490, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 23 [0/62518 (0%)]	Loss: 675.394897
+Train Epoch: 23 [12800/62518 (20%)]	Loss: 672.817566
+Train Epoch: 23 [25600/62518 (41%)]	Loss: 654.433044
+Train Epoch: 23 [38400/62518 (61%)]	Loss: 683.497253
+Train Epoch: 23 [51200/62518 (82%)]	Loss: 687.569519
+====> Epoch: 23 Average loss: 663.3338, learning rate: 0.001, time per epoch: 0:03:14.730191
+====> Validation: deepfake images loss: 1397.520, real images loss: 1419.548, EER: 0.506, AUC: 0.490, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 24 [0/62518 (0%)]	Loss: 751.161438
+Train Epoch: 24 [12800/62518 (20%)]	Loss: 637.549438
+Train Epoch: 24 [25600/62518 (41%)]	Loss: 649.900696
+Train Epoch: 24 [38400/62518 (61%)]	Loss: 646.632568
+Train Epoch: 24 [51200/62518 (82%)]	Loss: 652.249695
+====> Epoch: 24 Average loss: 657.2822, learning rate: 0.001, time per epoch: 0:03:14.538023
+====> Validation: deepfake images loss: 1402.838, real images loss: 1422.953, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 25 [0/62518 (0%)]	Loss: 640.468323
+Train Epoch: 25 [12800/62518 (20%)]	Loss: 657.100220
+Train Epoch: 25 [25600/62518 (41%)]	Loss: 651.201477
+Train Epoch: 25 [38400/62518 (61%)]	Loss: 649.595947
+Train Epoch: 25 [51200/62518 (82%)]	Loss: 662.330261
+====> Epoch: 25 Average loss: 646.1314, learning rate: 0.001, time per epoch: 0:03:14.545016
+====> Validation: deepfake images loss: 1388.774, real images loss: 1409.312, EER: 0.508, AUC: 0.491, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 26 [0/62518 (0%)]	Loss: 624.866455
+Train Epoch: 26 [12800/62518 (20%)]	Loss: 655.254028
+Train Epoch: 26 [25600/62518 (41%)]	Loss: 632.088684
+Train Epoch: 26 [38400/62518 (61%)]	Loss: 649.320068
+Train Epoch: 26 [51200/62518 (82%)]	Loss: 630.239624
+====> Epoch: 26 Average loss: 637.2358, learning rate: 0.001, time per epoch: 0:03:14.580825
+====> Validation: deepfake images loss: 1383.271, real images loss: 1405.586, EER: 0.507, AUC: 0.490, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 27 [0/62518 (0%)]	Loss: 691.749512
+Train Epoch: 27 [12800/62518 (20%)]	Loss: 655.307861
+Train Epoch: 27 [25600/62518 (41%)]	Loss: 607.781067
+Train Epoch: 27 [38400/62518 (61%)]	Loss: 607.314026
+Train Epoch: 27 [51200/62518 (82%)]	Loss: 598.950623
+====> Epoch: 27 Average loss: 637.0815, learning rate: 0.001, time per epoch: 0:03:14.506791
+====> Validation: deepfake images loss: 1367.170, real images loss: 1389.899, EER: 0.509, AUC: 0.490, BPCER(FPR)@EER: 0.509, APCER(FNR)@EER: 0.509
+Train Epoch: 28 [0/62518 (0%)]	Loss: 609.265747
+Train Epoch: 28 [12800/62518 (20%)]	Loss: 619.379944
+Train Epoch: 28 [25600/62518 (41%)]	Loss: 639.389709
+Train Epoch: 28 [38400/62518 (61%)]	Loss: 613.483582
+Train Epoch: 28 [51200/62518 (82%)]	Loss: 633.265503
+====> Epoch: 28 Average loss: 626.3407, learning rate: 0.001, time per epoch: 0:03:14.298129
+====> Validation: deepfake images loss: 1378.622, real images loss: 1400.671, EER: 0.507, AUC: 0.490, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 29 [0/62518 (0%)]	Loss: 629.790344
+Train Epoch: 29 [12800/62518 (20%)]	Loss: 611.287659
+Train Epoch: 29 [25600/62518 (41%)]	Loss: 628.839417
+Train Epoch: 29 [38400/62518 (61%)]	Loss: 629.683533
+Train Epoch: 29 [51200/62518 (82%)]	Loss: 610.969238
+====> Epoch: 29 Average loss: 618.7471, learning rate: 0.001, time per epoch: 0:03:14.606133
+====> Validation: deepfake images loss: 1380.810, real images loss: 1403.458, EER: 0.507, AUC: 0.490, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 30 [0/62518 (0%)]	Loss: 641.244324
+Train Epoch: 30 [12800/62518 (20%)]	Loss: 609.483459
+Train Epoch: 30 [25600/62518 (41%)]	Loss: 591.438843
+Train Epoch: 30 [38400/62518 (61%)]	Loss: 614.537720
+Train Epoch: 30 [51200/62518 (82%)]	Loss: 604.404419
+====> Epoch: 30 Average loss: 612.7199, learning rate: 0.001, time per epoch: 0:03:14.072970
+====> Validation: deepfake images loss: 1392.715, real images loss: 1414.247, EER: 0.505, AUC: 0.490, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 31 [0/62518 (0%)]	Loss: 638.312256
+Train Epoch: 31 [12800/62518 (20%)]	Loss: 584.325867
+Train Epoch: 31 [25600/62518 (41%)]	Loss: 583.054260
+Train Epoch: 31 [38400/62518 (61%)]	Loss: 591.283813
+Train Epoch: 31 [51200/62518 (82%)]	Loss: 594.325195
+====> Epoch: 31 Average loss: 607.3954, learning rate: 0.001, time per epoch: 0:03:14.542205
+====> Validation: deepfake images loss: 1373.146, real images loss: 1394.777, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 32 [0/62518 (0%)]	Loss: 616.585388
+Train Epoch: 32 [12800/62518 (20%)]	Loss: 612.927246
+Train Epoch: 32 [25600/62518 (41%)]	Loss: 585.759277
+Train Epoch: 32 [38400/62518 (61%)]	Loss: 614.621277
+Train Epoch: 32 [51200/62518 (82%)]	Loss: 602.934448
+====> Epoch: 32 Average loss: 602.0324, learning rate: 0.001, time per epoch: 0:03:14.648634
+====> Validation: deepfake images loss: 1367.705, real images loss: 1387.517, EER: 0.508, AUC: 0.492, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 33 [0/62518 (0%)]	Loss: 594.670410
+Train Epoch: 33 [12800/62518 (20%)]	Loss: 592.905701
+Train Epoch: 33 [25600/62518 (41%)]	Loss: 598.721252
+Train Epoch: 33 [38400/62518 (61%)]	Loss: 607.239441
+Train Epoch: 33 [51200/62518 (82%)]	Loss: 632.425842
+====> Epoch: 33 Average loss: 599.1970, learning rate: 0.001, time per epoch: 0:03:14.155058
+====> Validation: deepfake images loss: 1372.918, real images loss: 1391.325, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 34 [0/62518 (0%)]	Loss: 599.831482
+Train Epoch: 34 [12800/62518 (20%)]	Loss: 581.992004
+Train Epoch: 34 [25600/62518 (41%)]	Loss: 597.345093
+Train Epoch: 34 [38400/62518 (61%)]	Loss: 606.773071
+Train Epoch: 34 [51200/62518 (82%)]	Loss: 613.262085
+====> Epoch: 34 Average loss: 598.1596, learning rate: 0.001, time per epoch: 0:03:14.839323
+====> Validation: deepfake images loss: 1368.560, real images loss: 1389.063, EER: 0.508, AUC: 0.492, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 35 [0/62518 (0%)]	Loss: 588.174927
+Train Epoch: 35 [12800/62518 (20%)]	Loss: 574.124146
+Train Epoch: 35 [25600/62518 (41%)]	Loss: 634.137939
+Train Epoch: 35 [38400/62518 (61%)]	Loss: 576.647400
+Train Epoch: 35 [51200/62518 (82%)]	Loss: 573.948792
+====> Epoch: 35 Average loss: 591.9525, learning rate: 0.001, time per epoch: 0:03:14.748291
+====> Validation: deepfake images loss: 1363.007, real images loss: 1384.354, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 36 [0/62518 (0%)]	Loss: 590.089050
+Train Epoch: 36 [12800/62518 (20%)]	Loss: 552.946228
+Train Epoch: 36 [25600/62518 (41%)]	Loss: 581.678406
+Train Epoch: 36 [38400/62518 (61%)]	Loss: 576.650757
+Train Epoch: 36 [51200/62518 (82%)]	Loss: 604.863342
+====> Epoch: 36 Average loss: 585.2050, learning rate: 0.001, time per epoch: 0:03:14.543075
+====> Validation: deepfake images loss: 1364.761, real images loss: 1384.680, EER: 0.506, AUC: 0.492, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.505
+Train Epoch: 37 [0/62518 (0%)]	Loss: 558.958801
+Train Epoch: 37 [12800/62518 (20%)]	Loss: 566.573914
+Train Epoch: 37 [25600/62518 (41%)]	Loss: 590.128296
+Train Epoch: 37 [38400/62518 (61%)]	Loss: 585.685791
+Train Epoch: 37 [51200/62518 (82%)]	Loss: 589.918518
+====> Epoch: 37 Average loss: 583.5656, learning rate: 0.001, time per epoch: 0:03:14.175648
+====> Validation: deepfake images loss: 1369.863, real images loss: 1389.417, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 38 [0/62518 (0%)]	Loss: 583.738953
+Train Epoch: 38 [12800/62518 (20%)]	Loss: 571.485779
+Train Epoch: 38 [25600/62518 (41%)]	Loss: 585.099365
+Train Epoch: 38 [38400/62518 (61%)]	Loss: 592.159180
+Train Epoch: 38 [51200/62518 (82%)]	Loss: 609.790161
+====> Epoch: 38 Average loss: 578.9790, learning rate: 0.001, time per epoch: 0:03:14.645298
+====> Validation: deepfake images loss: 1371.386, real images loss: 1393.998, EER: 0.506, AUC: 0.490, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.505
+Train Epoch: 39 [0/62518 (0%)]	Loss: 633.317932
+Train Epoch: 39 [12800/62518 (20%)]	Loss: 555.533203
+Train Epoch: 39 [25600/62518 (41%)]	Loss: 599.002686
+Train Epoch: 39 [38400/62518 (61%)]	Loss: 562.459167
+Train Epoch: 39 [51200/62518 (82%)]	Loss: 567.982422
+====> Epoch: 39 Average loss: 575.9030, learning rate: 0.001, time per epoch: 0:03:14.915808
+====> Validation: deepfake images loss: 1367.820, real images loss: 1388.815, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 40 [0/62518 (0%)]	Loss: 582.207031
+Train Epoch: 40 [12800/62518 (20%)]	Loss: 564.568237
+Train Epoch: 40 [25600/62518 (41%)]	Loss: 567.622314
+Train Epoch: 40 [38400/62518 (61%)]	Loss: 572.532776
+Train Epoch: 40 [51200/62518 (82%)]	Loss: 577.555481
+====> Epoch: 40 Average loss: 570.8744, learning rate: 0.001, time per epoch: 0:03:14.767933
+====> Validation: deepfake images loss: 1357.297, real images loss: 1377.886, EER: 0.508, AUC: 0.491, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 41 [0/62518 (0%)]	Loss: 580.362366
+Train Epoch: 41 [12800/62518 (20%)]	Loss: 564.032043
+Train Epoch: 41 [25600/62518 (41%)]	Loss: 567.876648
+Train Epoch: 41 [38400/62518 (61%)]	Loss: 530.070068
+Train Epoch: 41 [51200/62518 (82%)]	Loss: 561.677734
+====> Epoch: 41 Average loss: 569.3700, learning rate: 0.001, time per epoch: 0:03:14.311804
+====> Validation: deepfake images loss: 1378.547, real images loss: 1398.973, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 42 [0/62518 (0%)]	Loss: 589.046753
+Train Epoch: 42 [12800/62518 (20%)]	Loss: 537.093567
+Train Epoch: 42 [25600/62518 (41%)]	Loss: 562.986816
+Train Epoch: 42 [38400/62518 (61%)]	Loss: 566.639221
+Train Epoch: 42 [51200/62518 (82%)]	Loss: 567.582275
+====> Epoch: 42 Average loss: 565.9875, learning rate: 0.001, time per epoch: 0:03:14.732326
+====> Validation: deepfake images loss: 1356.224, real images loss: 1377.129, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 43 [0/62518 (0%)]	Loss: 553.323914
+Train Epoch: 43 [12800/62518 (20%)]	Loss: 545.944885
+Train Epoch: 43 [25600/62518 (41%)]	Loss: 549.005432
+Train Epoch: 43 [38400/62518 (61%)]	Loss: 563.362427
+Train Epoch: 43 [51200/62518 (82%)]	Loss: 566.626587
+====> Epoch: 43 Average loss: 563.1225, learning rate: 0.001, time per epoch: 0:03:14.488346
+====> Validation: deepfake images loss: 1366.714, real images loss: 1388.061, EER: 0.508, AUC: 0.491, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 44 [0/62518 (0%)]	Loss: 568.282471
+Train Epoch: 44 [12800/62518 (20%)]	Loss: 579.054138
+Train Epoch: 44 [25600/62518 (41%)]	Loss: 554.845276
+Train Epoch: 44 [38400/62518 (61%)]	Loss: 526.831970
+Train Epoch: 44 [51200/62518 (82%)]	Loss: 560.368591
+====> Epoch: 44 Average loss: 562.7010, learning rate: 0.001, time per epoch: 0:03:14.557807
+====> Validation: deepfake images loss: 1356.764, real images loss: 1377.425, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 45 [0/62518 (0%)]	Loss: 533.411011
+Train Epoch: 45 [12800/62518 (20%)]	Loss: 561.189331
+Train Epoch: 45 [25600/62518 (41%)]	Loss: 554.518372
+Train Epoch: 45 [38400/62518 (61%)]	Loss: 541.886536
+Train Epoch: 45 [51200/62518 (82%)]	Loss: 532.317261
+====> Epoch: 45 Average loss: 558.5414, learning rate: 0.001, time per epoch: 0:03:14.714555
+====> Validation: deepfake images loss: 1359.302, real images loss: 1380.693, EER: 0.508, AUC: 0.490, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 46 [0/62518 (0%)]	Loss: 684.325623
+Train Epoch: 46 [12800/62518 (20%)]	Loss: 544.263184
+Train Epoch: 46 [25600/62518 (41%)]	Loss: 548.520691
+Train Epoch: 46 [38400/62518 (61%)]	Loss: 582.783264
+Train Epoch: 46 [51200/62518 (82%)]	Loss: 531.171021
+====> Epoch: 46 Average loss: 555.2756, learning rate: 0.001, time per epoch: 0:03:14.712818
+====> Validation: deepfake images loss: 1358.807, real images loss: 1378.197, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 47 [0/62518 (0%)]	Loss: 547.616272
+Train Epoch: 47 [12800/62518 (20%)]	Loss: 562.398621
+Train Epoch: 47 [25600/62518 (41%)]	Loss: 576.555420
+Train Epoch: 47 [38400/62518 (61%)]	Loss: 543.988953
+Train Epoch: 47 [51200/62518 (82%)]	Loss: 522.926147
+====> Epoch: 47 Average loss: 551.0782, learning rate: 0.001, time per epoch: 0:03:14.581141
+====> Validation: deepfake images loss: 1359.602, real images loss: 1381.224, EER: 0.508, AUC: 0.490, BPCER(FPR)@EER: 0.508, APCER(FNR)@EER: 0.508
+Train Epoch: 48 [0/62518 (0%)]	Loss: 546.592651
+Train Epoch: 48 [12800/62518 (20%)]	Loss: 551.193237
+Train Epoch: 48 [25600/62518 (41%)]	Loss: 533.515198
+Train Epoch: 48 [38400/62518 (61%)]	Loss: 529.119934
+Train Epoch: 48 [51200/62518 (82%)]	Loss: 552.889343
+====> Epoch: 48 Average loss: 549.9122, learning rate: 0.001, time per epoch: 0:03:14.841853
+====> Validation: deepfake images loss: 1346.920, real images loss: 1366.108, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 49 [0/62518 (0%)]	Loss: 546.835083
+Train Epoch: 49 [12800/62518 (20%)]	Loss: 575.252563
+Train Epoch: 49 [25600/62518 (41%)]	Loss: 547.665833
+Train Epoch: 49 [38400/62518 (61%)]	Loss: 551.080811
+Train Epoch: 49 [51200/62518 (82%)]	Loss: 552.809692
+====> Epoch: 49 Average loss: 546.7878, learning rate: 0.001, time per epoch: 0:03:14.755477
+====> Validation: deepfake images loss: 1368.603, real images loss: 1389.729, EER: 0.507, AUC: 0.490, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 50 [0/62518 (0%)]	Loss: 535.061890
+Train Epoch: 50 [12800/62518 (20%)]	Loss: 540.140869
+Train Epoch: 50 [25600/62518 (41%)]	Loss: 609.106567
+Train Epoch: 50 [38400/62518 (61%)]	Loss: 524.149414
+Train Epoch: 50 [51200/62518 (82%)]	Loss: 555.095337
+====> Epoch: 50 Average loss: 543.4732, learning rate: 0.001, time per epoch: 0:03:14.611832
+====> Validation: deepfake images loss: 1355.985, real images loss: 1374.944, EER: 0.504, AUC: 0.492, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 51 [0/62518 (0%)]	Loss: 524.939636
+Train Epoch: 51 [12800/62518 (20%)]	Loss: 527.509827
+Train Epoch: 51 [25600/62518 (41%)]	Loss: 549.993103
+Train Epoch: 51 [38400/62518 (61%)]	Loss: 551.047180
+Train Epoch: 51 [51200/62518 (82%)]	Loss: 520.342773
+====> Epoch: 51 Average loss: 540.9703, learning rate: 0.001, time per epoch: 0:03:14.444991
+====> Validation: deepfake images loss: 1341.216, real images loss: 1362.574, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 52 [0/62518 (0%)]	Loss: 533.277222
+Train Epoch: 52 [12800/62518 (20%)]	Loss: 525.732300
+Train Epoch: 52 [25600/62518 (41%)]	Loss: 535.839233
+Train Epoch: 52 [38400/62518 (61%)]	Loss: 528.282471
+Train Epoch: 52 [51200/62518 (82%)]	Loss: 522.275330
+====> Epoch: 52 Average loss: 539.7787, learning rate: 0.001, time per epoch: 0:03:14.411775
+====> Validation: deepfake images loss: 1362.505, real images loss: 1382.527, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 53 [0/62518 (0%)]	Loss: 563.067139
+Train Epoch: 53 [12800/62518 (20%)]	Loss: 560.356140
+Train Epoch: 53 [25600/62518 (41%)]	Loss: 549.042725
+Train Epoch: 53 [38400/62518 (61%)]	Loss: 547.868713
+Train Epoch: 53 [51200/62518 (82%)]	Loss: 560.446594
+====> Epoch: 53 Average loss: 538.0018, learning rate: 0.001, time per epoch: 0:03:14.603683
+====> Validation: deepfake images loss: 1355.121, real images loss: 1374.701, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 54 [0/62518 (0%)]	Loss: 523.650391
+Train Epoch: 54 [12800/62518 (20%)]	Loss: 537.247009
+Train Epoch: 54 [25600/62518 (41%)]	Loss: 528.964050
+Train Epoch: 54 [38400/62518 (61%)]	Loss: 542.080688
+Train Epoch: 54 [51200/62518 (82%)]	Loss: 547.114075
+====> Epoch: 54 Average loss: 537.3597, learning rate: 0.001, time per epoch: 0:03:14.866704
+====> Validation: deepfake images loss: 1358.485, real images loss: 1379.389, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.506
+Train Epoch: 55 [0/62518 (0%)]	Loss: 549.094360
+Train Epoch: 55 [12800/62518 (20%)]	Loss: 516.590576
+Train Epoch: 55 [25600/62518 (41%)]	Loss: 555.318237
+Train Epoch: 55 [38400/62518 (61%)]	Loss: 532.828613
+Train Epoch: 55 [51200/62518 (82%)]	Loss: 537.396179
+====> Epoch: 55 Average loss: 535.2932, learning rate: 0.001, time per epoch: 0:03:14.763644
+====> Validation: deepfake images loss: 1363.624, real images loss: 1383.336, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 56 [0/62518 (0%)]	Loss: 523.205627
+Train Epoch: 56 [12800/62518 (20%)]	Loss: 528.441589
+Train Epoch: 56 [25600/62518 (41%)]	Loss: 508.434387
+Train Epoch: 56 [38400/62518 (61%)]	Loss: 511.495605
+Train Epoch: 56 [51200/62518 (82%)]	Loss: 532.054565
+====> Epoch: 56 Average loss: 531.3996, learning rate: 0.001, time per epoch: 0:03:14.451536
+====> Validation: deepfake images loss: 1342.169, real images loss: 1362.356, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 57 [0/62518 (0%)]	Loss: 510.925049
+Train Epoch: 57 [12800/62518 (20%)]	Loss: 510.757477
+Train Epoch: 57 [25600/62518 (41%)]	Loss: 530.844727
+Train Epoch: 57 [38400/62518 (61%)]	Loss: 551.809692
+Train Epoch: 57 [51200/62518 (82%)]	Loss: 535.604614
+====> Epoch: 57 Average loss: 530.0726, learning rate: 0.001, time per epoch: 0:03:14.638143
+====> Validation: deepfake images loss: 1352.166, real images loss: 1372.004, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 58 [0/62518 (0%)]	Loss: 523.200745
+Train Epoch: 58 [12800/62518 (20%)]	Loss: 501.534515
+Train Epoch: 58 [25600/62518 (41%)]	Loss: 516.926453
+Train Epoch: 58 [38400/62518 (61%)]	Loss: 527.088013
+Train Epoch: 58 [51200/62518 (82%)]	Loss: 519.387024
+====> Epoch: 58 Average loss: 525.8433, learning rate: 0.001, time per epoch: 0:03:14.194377
+====> Validation: deepfake images loss: 1371.181, real images loss: 1390.597, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 59 [0/62518 (0%)]	Loss: 537.178711
+Train Epoch: 59 [12800/62518 (20%)]	Loss: 545.824463
+Train Epoch: 59 [25600/62518 (41%)]	Loss: 511.561157
+Train Epoch: 59 [38400/62518 (61%)]	Loss: 519.667969
+Train Epoch: 59 [51200/62518 (82%)]	Loss: 541.916382
+====> Epoch: 59 Average loss: 525.8628, learning rate: 0.001, time per epoch: 0:03:14.626935
+====> Validation: deepfake images loss: 1361.200, real images loss: 1381.975, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 60 [0/62518 (0%)]	Loss: 532.659912
+Train Epoch: 60 [12800/62518 (20%)]	Loss: 523.709839
+Train Epoch: 60 [25600/62518 (41%)]	Loss: 523.540527
+Train Epoch: 60 [38400/62518 (61%)]	Loss: 507.591003
+Train Epoch: 60 [51200/62518 (82%)]	Loss: 518.040771
+====> Epoch: 60 Average loss: 524.1257, learning rate: 0.001, time per epoch: 0:03:14.799211
+====> Validation: deepfake images loss: 1346.149, real images loss: 1366.420, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 61 [0/62518 (0%)]	Loss: 532.200500
+Train Epoch: 61 [12800/62518 (20%)]	Loss: 533.338257
+Train Epoch: 61 [25600/62518 (41%)]	Loss: 553.785767
+Train Epoch: 61 [38400/62518 (61%)]	Loss: 507.925446
+Train Epoch: 61 [51200/62518 (82%)]	Loss: 538.775330
+====> Epoch: 61 Average loss: 522.4260, learning rate: 0.001, time per epoch: 0:03:14.431257
+====> Validation: deepfake images loss: 1348.583, real images loss: 1368.891, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 62 [0/62518 (0%)]	Loss: 525.030396
+Train Epoch: 62 [12800/62518 (20%)]	Loss: 505.783386
+Train Epoch: 62 [25600/62518 (41%)]	Loss: 529.167969
+Train Epoch: 62 [38400/62518 (61%)]	Loss: 517.279419
+Train Epoch: 62 [51200/62518 (82%)]	Loss: 547.480957
+====> Epoch: 62 Average loss: 520.1703, learning rate: 0.001, time per epoch: 0:03:14.474415
+====> Validation: deepfake images loss: 1348.356, real images loss: 1368.530, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 63 [0/62518 (0%)]	Loss: 512.192871
+Train Epoch: 63 [12800/62518 (20%)]	Loss: 531.259094
+Train Epoch: 63 [25600/62518 (41%)]	Loss: 521.739258
+Train Epoch: 63 [38400/62518 (61%)]	Loss: 491.377686
+Train Epoch: 63 [51200/62518 (82%)]	Loss: 550.102478
+====> Epoch: 63 Average loss: 519.3417, learning rate: 0.001, time per epoch: 0:03:14.580351
+====> Validation: deepfake images loss: 1347.560, real images loss: 1367.598, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 64 [0/62518 (0%)]	Loss: 540.008301
+Train Epoch: 64 [12800/62518 (20%)]	Loss: 508.173523
+Train Epoch: 64 [25600/62518 (41%)]	Loss: 554.921997
+Train Epoch: 64 [38400/62518 (61%)]	Loss: 487.224335
+Train Epoch: 64 [51200/62518 (82%)]	Loss: 514.166321
+====> Epoch: 64 Average loss: 518.7401, learning rate: 0.001, time per epoch: 0:03:14.603964
+====> Validation: deepfake images loss: 1374.008, real images loss: 1393.895, EER: 0.507, AUC: 0.491, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 65 [0/62518 (0%)]	Loss: 531.694763
+Train Epoch: 65 [12800/62518 (20%)]	Loss: 507.878418
+Train Epoch: 65 [25600/62518 (41%)]	Loss: 518.338867
+Train Epoch: 65 [38400/62518 (61%)]	Loss: 517.743225
+Train Epoch: 65 [51200/62518 (82%)]	Loss: 498.108582
+====> Epoch: 65 Average loss: 517.6808, learning rate: 0.001, time per epoch: 0:03:14.502997
+====> Validation: deepfake images loss: 1350.754, real images loss: 1370.581, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 66 [0/62518 (0%)]	Loss: 506.247559
+Train Epoch: 66 [12800/62518 (20%)]	Loss: 504.658325
+Train Epoch: 66 [25600/62518 (41%)]	Loss: 510.462585
+Train Epoch: 66 [38400/62518 (61%)]	Loss: 502.159027
+Train Epoch: 66 [51200/62518 (82%)]	Loss: 506.849213
+====> Epoch: 66 Average loss: 514.2346, learning rate: 0.001, time per epoch: 0:03:14.469787
+====> Validation: deepfake images loss: 1356.639, real images loss: 1375.771, EER: 0.504, AUC: 0.492, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 67 [0/62518 (0%)]	Loss: 505.198975
+Train Epoch: 67 [12800/62518 (20%)]	Loss: 506.560181
+Train Epoch: 67 [25600/62518 (41%)]	Loss: 526.121521
+Train Epoch: 67 [38400/62518 (61%)]	Loss: 516.976746
+Train Epoch: 67 [51200/62518 (82%)]	Loss: 519.700500
+====> Epoch: 67 Average loss: 511.6874, learning rate: 0.001, time per epoch: 0:03:14.533086
+====> Validation: deepfake images loss: 1336.783, real images loss: 1358.314, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 68 [0/62518 (0%)]	Loss: 493.162201
+Train Epoch: 68 [12800/62518 (20%)]	Loss: 506.996307
+Train Epoch: 68 [25600/62518 (41%)]	Loss: 497.906433
+Train Epoch: 68 [38400/62518 (61%)]	Loss: 501.382660
+Train Epoch: 68 [51200/62518 (82%)]	Loss: 520.016479
+====> Epoch: 68 Average loss: 510.2844, learning rate: 0.001, time per epoch: 0:03:14.511379
+====> Validation: deepfake images loss: 1346.512, real images loss: 1367.032, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 69 [0/62518 (0%)]	Loss: 501.406464
+Train Epoch: 69 [12800/62518 (20%)]	Loss: 506.343719
+Train Epoch: 69 [25600/62518 (41%)]	Loss: 528.212463
+Train Epoch: 69 [38400/62518 (61%)]	Loss: 485.709656
+Train Epoch: 69 [51200/62518 (82%)]	Loss: 494.581543
+====> Epoch: 69 Average loss: 509.0514, learning rate: 0.001, time per epoch: 0:03:14.717798
+====> Validation: deepfake images loss: 1353.308, real images loss: 1374.251, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 70 [0/62518 (0%)]	Loss: 506.324219
+Train Epoch: 70 [12800/62518 (20%)]	Loss: 480.433350
+Train Epoch: 70 [25600/62518 (41%)]	Loss: 470.062225
+Train Epoch: 70 [38400/62518 (61%)]	Loss: 478.195129
+Train Epoch: 70 [51200/62518 (82%)]	Loss: 473.843689
+====> Epoch: 70 Average loss: 483.1424, learning rate: 0.0001, time per epoch: 0:03:14.529850
+====> Validation: deepfake images loss: 1325.537, real images loss: 1346.048, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 71 [0/62518 (0%)]	Loss: 470.418945
+Train Epoch: 71 [12800/62518 (20%)]	Loss: 453.609772
+Train Epoch: 71 [25600/62518 (41%)]	Loss: 474.449829
+Train Epoch: 71 [38400/62518 (61%)]	Loss: 485.825378
+Train Epoch: 71 [51200/62518 (82%)]	Loss: 461.155609
+====> Epoch: 71 Average loss: 473.1620, learning rate: 0.0001, time per epoch: 0:03:14.646190
+====> Validation: deepfake images loss: 1320.542, real images loss: 1341.154, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 72 [0/62518 (0%)]	Loss: 459.739868
+Train Epoch: 72 [12800/62518 (20%)]	Loss: 452.076660
+Train Epoch: 72 [25600/62518 (41%)]	Loss: 481.682983
+Train Epoch: 72 [38400/62518 (61%)]	Loss: 497.890472
+Train Epoch: 72 [51200/62518 (82%)]	Loss: 474.807251
+====> Epoch: 72 Average loss: 470.8955, learning rate: 0.0001, time per epoch: 0:03:14.685220
+====> Validation: deepfake images loss: 1327.083, real images loss: 1347.453, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 73 [0/62518 (0%)]	Loss: 491.202362
+Train Epoch: 73 [12800/62518 (20%)]	Loss: 490.682800
+Train Epoch: 73 [25600/62518 (41%)]	Loss: 500.169373
+Train Epoch: 73 [38400/62518 (61%)]	Loss: 451.567932
+Train Epoch: 73 [51200/62518 (82%)]	Loss: 457.287781
+====> Epoch: 73 Average loss: 469.0303, learning rate: 0.0001, time per epoch: 0:03:14.557022
+====> Validation: deepfake images loss: 1322.394, real images loss: 1343.822, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 74 [0/62518 (0%)]	Loss: 468.036285
+Train Epoch: 74 [12800/62518 (20%)]	Loss: 451.851349
+Train Epoch: 74 [25600/62518 (41%)]	Loss: 449.313782
+Train Epoch: 74 [38400/62518 (61%)]	Loss: 469.669830
+Train Epoch: 74 [51200/62518 (82%)]	Loss: 466.941742
+====> Epoch: 74 Average loss: 466.6817, learning rate: 0.0001, time per epoch: 0:03:14.284030
+====> Validation: deepfake images loss: 1328.685, real images loss: 1348.338, EER: 0.507, AUC: 0.492, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.506
+Train Epoch: 75 [0/62518 (0%)]	Loss: 460.053711
+Train Epoch: 75 [12800/62518 (20%)]	Loss: 453.895050
+Train Epoch: 75 [25600/62518 (41%)]	Loss: 459.643005
+Train Epoch: 75 [38400/62518 (61%)]	Loss: 441.964050
+Train Epoch: 75 [51200/62518 (82%)]	Loss: 470.955627
+====> Epoch: 75 Average loss: 464.4991, learning rate: 0.0001, time per epoch: 0:03:14.591056
+====> Validation: deepfake images loss: 1326.973, real images loss: 1346.775, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 76 [0/62518 (0%)]	Loss: 460.547760
+Train Epoch: 76 [12800/62518 (20%)]	Loss: 449.678680
+Train Epoch: 76 [25600/62518 (41%)]	Loss: 457.807495
+Train Epoch: 76 [38400/62518 (61%)]	Loss: 478.383362
+Train Epoch: 76 [51200/62518 (82%)]	Loss: 458.730743
+====> Epoch: 76 Average loss: 462.2184, learning rate: 0.0001, time per epoch: 0:03:14.595580
+====> Validation: deepfake images loss: 1328.368, real images loss: 1349.030, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 77 [0/62518 (0%)]	Loss: 445.565308
+Train Epoch: 77 [12800/62518 (20%)]	Loss: 475.411804
+Train Epoch: 77 [25600/62518 (41%)]	Loss: 442.372559
+Train Epoch: 77 [38400/62518 (61%)]	Loss: 449.341248
+Train Epoch: 77 [51200/62518 (82%)]	Loss: 451.261047
+====> Epoch: 77 Average loss: 461.4427, learning rate: 0.0001, time per epoch: 0:03:14.655601
+====> Validation: deepfake images loss: 1326.790, real images loss: 1346.778, EER: 0.504, AUC: 0.492, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 78 [0/62518 (0%)]	Loss: 445.609833
+Train Epoch: 78 [12800/62518 (20%)]	Loss: 442.679016
+Train Epoch: 78 [25600/62518 (41%)]	Loss: 483.408936
+Train Epoch: 78 [38400/62518 (61%)]	Loss: 444.697266
+Train Epoch: 78 [51200/62518 (82%)]	Loss: 460.534607
+====> Epoch: 78 Average loss: 459.6075, learning rate: 0.0001, time per epoch: 0:03:14.525427
+====> Validation: deepfake images loss: 1328.392, real images loss: 1349.098, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 79 [0/62518 (0%)]	Loss: 467.580139
+Train Epoch: 79 [12800/62518 (20%)]	Loss: 454.315704
+Train Epoch: 79 [25600/62518 (41%)]	Loss: 461.982849
+Train Epoch: 79 [38400/62518 (61%)]	Loss: 466.275421
+Train Epoch: 79 [51200/62518 (82%)]	Loss: 457.297363
+====> Epoch: 79 Average loss: 459.0204, learning rate: 0.0001, time per epoch: 0:03:13.904773
+====> Validation: deepfake images loss: 1331.580, real images loss: 1352.138, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 80 [0/62518 (0%)]	Loss: 499.041382
+Train Epoch: 80 [12800/62518 (20%)]	Loss: 474.329041
+Train Epoch: 80 [25600/62518 (41%)]	Loss: 490.651245
+Train Epoch: 80 [38400/62518 (61%)]	Loss: 444.974365
+Train Epoch: 80 [51200/62518 (82%)]	Loss: 444.790497
+====> Epoch: 80 Average loss: 458.3837, learning rate: 0.0001, time per epoch: 0:03:14.504147
+====> Validation: deepfake images loss: 1332.183, real images loss: 1351.933, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 81 [0/62518 (0%)]	Loss: 448.213074
+Train Epoch: 81 [12800/62518 (20%)]	Loss: 459.078033
+Train Epoch: 81 [25600/62518 (41%)]	Loss: 466.401917
+Train Epoch: 81 [38400/62518 (61%)]	Loss: 446.285156
+Train Epoch: 81 [51200/62518 (82%)]	Loss: 444.514221
+====> Epoch: 81 Average loss: 458.4473, learning rate: 0.0001, time per epoch: 0:03:14.590194
+====> Validation: deepfake images loss: 1336.585, real images loss: 1357.580, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 82 [0/62518 (0%)]	Loss: 450.471924
+Train Epoch: 82 [12800/62518 (20%)]	Loss: 432.549591
+Train Epoch: 82 [25600/62518 (41%)]	Loss: 451.006897
+Train Epoch: 82 [38400/62518 (61%)]	Loss: 448.111816
+Train Epoch: 82 [51200/62518 (82%)]	Loss: 466.043823
+====> Epoch: 82 Average loss: 454.8865, learning rate: 0.0001, time per epoch: 0:03:14.580427
+====> Validation: deepfake images loss: 1332.930, real images loss: 1353.140, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 83 [0/62518 (0%)]	Loss: 454.997986
+Train Epoch: 83 [12800/62518 (20%)]	Loss: 453.691345
+Train Epoch: 83 [25600/62518 (41%)]	Loss: 448.244507
+Train Epoch: 83 [38400/62518 (61%)]	Loss: 474.235321
+Train Epoch: 83 [51200/62518 (82%)]	Loss: 464.662476
+====> Epoch: 83 Average loss: 455.2990, learning rate: 0.0001, time per epoch: 0:03:14.823747
+====> Validation: deepfake images loss: 1330.740, real images loss: 1350.449, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 84 [0/62518 (0%)]	Loss: 452.491882
+Train Epoch: 84 [12800/62518 (20%)]	Loss: 433.113190
+Train Epoch: 84 [25600/62518 (41%)]	Loss: 446.613525
+Train Epoch: 84 [38400/62518 (61%)]	Loss: 448.893799
+Train Epoch: 84 [51200/62518 (82%)]	Loss: 468.562012
+====> Epoch: 84 Average loss: 454.2417, learning rate: 0.0001, time per epoch: 0:03:14.656878
+====> Validation: deepfake images loss: 1330.462, real images loss: 1350.509, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 85 [0/62518 (0%)]	Loss: 452.179443
+Train Epoch: 85 [12800/62518 (20%)]	Loss: 474.041199
+Train Epoch: 85 [25600/62518 (41%)]	Loss: 451.478302
+Train Epoch: 85 [38400/62518 (61%)]	Loss: 468.265259
+Train Epoch: 85 [51200/62518 (82%)]	Loss: 434.354248
+====> Epoch: 85 Average loss: 454.6387, learning rate: 0.0001, time per epoch: 0:03:14.585361
+====> Validation: deepfake images loss: 1334.032, real images loss: 1353.936, EER: 0.504, AUC: 0.492, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 86 [0/62518 (0%)]	Loss: 469.444763
+Train Epoch: 86 [12800/62518 (20%)]	Loss: 457.028259
+Train Epoch: 86 [25600/62518 (41%)]	Loss: 449.776703
+Train Epoch: 86 [38400/62518 (61%)]	Loss: 458.395386
+Train Epoch: 86 [51200/62518 (82%)]	Loss: 451.931763
+====> Epoch: 86 Average loss: 454.4375, learning rate: 0.0001, time per epoch: 0:03:14.756422
+====> Validation: deepfake images loss: 1337.432, real images loss: 1358.347, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 87 [0/62518 (0%)]	Loss: 460.102295
+Train Epoch: 87 [12800/62518 (20%)]	Loss: 462.080017
+Train Epoch: 87 [25600/62518 (41%)]	Loss: 445.461792
+Train Epoch: 87 [38400/62518 (61%)]	Loss: 442.555420
+Train Epoch: 87 [51200/62518 (82%)]	Loss: 462.540314
+====> Epoch: 87 Average loss: 453.3813, learning rate: 0.0001, time per epoch: 0:03:14.987288
+====> Validation: deepfake images loss: 1334.957, real images loss: 1355.323, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 88 [0/62518 (0%)]	Loss: 457.972168
+Train Epoch: 88 [12800/62518 (20%)]	Loss: 456.275208
+Train Epoch: 88 [25600/62518 (41%)]	Loss: 434.221161
+Train Epoch: 88 [38400/62518 (61%)]	Loss: 437.964325
+Train Epoch: 88 [51200/62518 (82%)]	Loss: 455.225739
+====> Epoch: 88 Average loss: 452.1130, learning rate: 0.0001, time per epoch: 0:03:14.855900
+====> Validation: deepfake images loss: 1337.427, real images loss: 1356.910, EER: 0.507, AUC: 0.492, BPCER(FPR)@EER: 0.507, APCER(FNR)@EER: 0.507
+Train Epoch: 89 [0/62518 (0%)]	Loss: 467.483551
+Train Epoch: 89 [12800/62518 (20%)]	Loss: 429.804291
+Train Epoch: 89 [25600/62518 (41%)]	Loss: 449.928070
+Train Epoch: 89 [38400/62518 (61%)]	Loss: 472.065918
+Train Epoch: 89 [51200/62518 (82%)]	Loss: 457.479492
+====> Epoch: 89 Average loss: 452.3618, learning rate: 0.0001, time per epoch: 0:03:14.808275
+====> Validation: deepfake images loss: 1337.945, real images loss: 1358.372, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 90 [0/62518 (0%)]	Loss: 447.392426
+Train Epoch: 90 [12800/62518 (20%)]	Loss: 449.566162
+Train Epoch: 90 [25600/62518 (41%)]	Loss: 444.689758
+Train Epoch: 90 [38400/62518 (61%)]	Loss: 472.576477
+Train Epoch: 90 [51200/62518 (82%)]	Loss: 451.297058
+====> Epoch: 90 Average loss: 450.9083, learning rate: 0.0001, time per epoch: 0:03:14.289891
+====> Validation: deepfake images loss: 1334.646, real images loss: 1354.359, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 91 [0/62518 (0%)]	Loss: 456.734253
+Train Epoch: 91 [12800/62518 (20%)]	Loss: 458.486755
+Train Epoch: 91 [25600/62518 (41%)]	Loss: 459.651794
+Train Epoch: 91 [38400/62518 (61%)]	Loss: 473.606140
+Train Epoch: 91 [51200/62518 (82%)]	Loss: 425.946777
+====> Epoch: 91 Average loss: 451.2157, learning rate: 0.0001, time per epoch: 0:03:14.489741
+====> Validation: deepfake images loss: 1332.185, real images loss: 1353.211, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 92 [0/62518 (0%)]	Loss: 467.611694
+Train Epoch: 92 [12800/62518 (20%)]	Loss: 444.542603
+Train Epoch: 92 [25600/62518 (41%)]	Loss: 453.836365
+Train Epoch: 92 [38400/62518 (61%)]	Loss: 439.619507
+Train Epoch: 92 [51200/62518 (82%)]	Loss: 463.265503
+====> Epoch: 92 Average loss: 448.9110, learning rate: 1e-05, time per epoch: 0:03:14.412821
+====> Validation: deepfake images loss: 1331.830, real images loss: 1351.591, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 93 [0/62518 (0%)]	Loss: 451.887695
+Train Epoch: 93 [12800/62518 (20%)]	Loss: 433.687958
+Train Epoch: 93 [25600/62518 (41%)]	Loss: 438.298401
+Train Epoch: 93 [38400/62518 (61%)]	Loss: 444.880310
+Train Epoch: 93 [51200/62518 (82%)]	Loss: 456.063416
+====> Epoch: 93 Average loss: 447.7156, learning rate: 1e-05, time per epoch: 0:03:14.641456
+====> Validation: deepfake images loss: 1337.351, real images loss: 1356.771, EER: 0.504, AUC: 0.492, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 94 [0/62518 (0%)]	Loss: 477.591827
+Train Epoch: 94 [12800/62518 (20%)]	Loss: 456.462250
+Train Epoch: 94 [25600/62518 (41%)]	Loss: 434.387634
+Train Epoch: 94 [38400/62518 (61%)]	Loss: 464.824768
+Train Epoch: 94 [51200/62518 (82%)]	Loss: 441.795044
+====> Epoch: 94 Average loss: 446.9349, learning rate: 1e-05, time per epoch: 0:03:14.770155
+====> Validation: deepfake images loss: 1337.020, real images loss: 1357.202, EER: 0.503, AUC: 0.491, BPCER(FPR)@EER: 0.503, APCER(FNR)@EER: 0.503
+Train Epoch: 95 [0/62518 (0%)]	Loss: 436.731201
+Train Epoch: 95 [12800/62518 (20%)]	Loss: 436.157928
+Train Epoch: 95 [25600/62518 (41%)]	Loss: 447.194672
+Train Epoch: 95 [38400/62518 (61%)]	Loss: 469.247711
+Train Epoch: 95 [51200/62518 (82%)]	Loss: 443.417114
+====> Epoch: 95 Average loss: 446.5337, learning rate: 1e-05, time per epoch: 0:03:14.863100
+====> Validation: deepfake images loss: 1333.626, real images loss: 1354.129, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 96 [0/62518 (0%)]	Loss: 464.512878
+Train Epoch: 96 [12800/62518 (20%)]	Loss: 445.713684
+Train Epoch: 96 [25600/62518 (41%)]	Loss: 425.981018
+Train Epoch: 96 [38400/62518 (61%)]	Loss: 432.988617
+Train Epoch: 96 [51200/62518 (82%)]	Loss: 442.325684
+====> Epoch: 96 Average loss: 446.9023, learning rate: 1e-05, time per epoch: 0:03:14.895730
+====> Validation: deepfake images loss: 1335.857, real images loss: 1356.069, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 97 [0/62518 (0%)]	Loss: 455.791260
+Train Epoch: 97 [12800/62518 (20%)]	Loss: 440.622009
+Train Epoch: 97 [25600/62518 (41%)]	Loss: 439.923065
+Train Epoch: 97 [38400/62518 (61%)]	Loss: 434.515991
+Train Epoch: 97 [51200/62518 (82%)]	Loss: 441.006866
+====> Epoch: 97 Average loss: 447.2165, learning rate: 1e-05, time per epoch: 0:03:14.458668
+====> Validation: deepfake images loss: 1335.355, real images loss: 1355.038, EER: 0.503, AUC: 0.492, BPCER(FPR)@EER: 0.503, APCER(FNR)@EER: 0.503
+Train Epoch: 98 [0/62518 (0%)]	Loss: 450.720337
+Train Epoch: 98 [12800/62518 (20%)]	Loss: 449.966187
+Train Epoch: 98 [25600/62518 (41%)]	Loss: 455.284058
+Train Epoch: 98 [38400/62518 (61%)]	Loss: 461.611542
+Train Epoch: 98 [51200/62518 (82%)]	Loss: 432.781494
+====> Epoch: 98 Average loss: 446.9297, learning rate: 1e-05, time per epoch: 0:03:14.420902
+====> Validation: deepfake images loss: 1336.035, real images loss: 1356.490, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.504
+Train Epoch: 99 [0/62518 (0%)]	Loss: 471.866516
+Train Epoch: 99 [12800/62518 (20%)]	Loss: 441.562256
+Train Epoch: 99 [25600/62518 (41%)]	Loss: 423.385193
+Train Epoch: 99 [38400/62518 (61%)]	Loss: 442.467468
+Train Epoch: 99 [51200/62518 (82%)]	Loss: 447.907257
+====> Epoch: 99 Average loss: 447.6434, learning rate: 1e-05, time per epoch: 0:03:14.433430
+====> Validation: deepfake images loss: 1337.390, real images loss: 1357.470, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 100 [0/62518 (0%)]	Loss: 444.101074
+Train Epoch: 100 [12800/62518 (20%)]	Loss: 439.754059
+Train Epoch: 100 [25600/62518 (41%)]	Loss: 450.060852
+Train Epoch: 100 [38400/62518 (61%)]	Loss: 462.687561
+Train Epoch: 100 [51200/62518 (82%)]	Loss: 463.328186
+====> Epoch: 100 Average loss: 446.9421, learning rate: 1e-05, time per epoch: 0:03:14.555449
+====> Validation: deepfake images loss: 1335.341, real images loss: 1355.262, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 101 [0/62518 (0%)]	Loss: 425.707672
+Train Epoch: 101 [12800/62518 (20%)]	Loss: 446.429810
+Train Epoch: 101 [25600/62518 (41%)]	Loss: 438.790894
+Train Epoch: 101 [38400/62518 (61%)]	Loss: 439.501617
+Train Epoch: 101 [51200/62518 (82%)]	Loss: 443.166931
+====> Epoch: 101 Average loss: 447.2966, learning rate: 1e-05, time per epoch: 0:03:14.802867
+====> Validation: deepfake images loss: 1335.512, real images loss: 1355.459, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 102 [0/62518 (0%)]	Loss: 448.445435
+Train Epoch: 102 [12800/62518 (20%)]	Loss: 430.466553
+Train Epoch: 102 [25600/62518 (41%)]	Loss: 434.211304
+Train Epoch: 102 [38400/62518 (61%)]	Loss: 472.308441
+Train Epoch: 102 [51200/62518 (82%)]	Loss: 446.072327
+====> Epoch: 102 Average loss: 447.7360, learning rate: 1e-05, time per epoch: 0:03:15.043315
+====> Validation: deepfake images loss: 1338.235, real images loss: 1357.777, EER: 0.504, AUC: 0.492, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 103 [0/62518 (0%)]	Loss: 449.730591
+Train Epoch: 103 [12800/62518 (20%)]	Loss: 456.832245
+Train Epoch: 103 [25600/62518 (41%)]	Loss: 469.426727
+Train Epoch: 103 [38400/62518 (61%)]	Loss: 438.192566
+Train Epoch: 103 [51200/62518 (82%)]	Loss: 456.720825
+====> Epoch: 103 Average loss: 446.8729, learning rate: 1e-05, time per epoch: 0:03:15.142008
+====> Validation: deepfake images loss: 1337.172, real images loss: 1357.388, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 104 [0/62518 (0%)]	Loss: 445.691406
+Train Epoch: 104 [12800/62518 (20%)]	Loss: 451.540833
+Train Epoch: 104 [25600/62518 (41%)]	Loss: 457.642456
+Train Epoch: 104 [38400/62518 (61%)]	Loss: 451.627869
+Train Epoch: 104 [51200/62518 (82%)]	Loss: 438.858826
+====> Epoch: 104 Average loss: 445.4645, learning rate: 1e-05, time per epoch: 0:03:14.493018
+====> Validation: deepfake images loss: 1334.749, real images loss: 1356.330, EER: 0.506, AUC: 0.491, BPCER(FPR)@EER: 0.506, APCER(FNR)@EER: 0.506
+Train Epoch: 105 [0/62518 (0%)]	Loss: 452.252136
+Train Epoch: 105 [12800/62518 (20%)]	Loss: 451.735107
+Train Epoch: 105 [25600/62518 (41%)]	Loss: 469.304626
+Train Epoch: 105 [38400/62518 (61%)]	Loss: 446.602661
+Train Epoch: 105 [51200/62518 (82%)]	Loss: 464.393494
+====> Epoch: 105 Average loss: 445.4344, learning rate: 1e-05, time per epoch: 0:03:14.408789
+====> Validation: deepfake images loss: 1334.574, real images loss: 1354.543, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 106 [0/62518 (0%)]	Loss: 453.384277
+Train Epoch: 106 [12800/62518 (20%)]	Loss: 477.870026
+Train Epoch: 106 [25600/62518 (41%)]	Loss: 456.957001
+Train Epoch: 106 [38400/62518 (61%)]	Loss: 459.772675
+Train Epoch: 106 [51200/62518 (82%)]	Loss: 454.458679
+====> Epoch: 106 Average loss: 447.0651, learning rate: 1e-05, time per epoch: 0:03:14.744210
+====> Validation: deepfake images loss: 1335.671, real images loss: 1356.134, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 107 [0/62518 (0%)]	Loss: 435.264526
+Train Epoch: 107 [12800/62518 (20%)]	Loss: 428.787292
+Train Epoch: 107 [25600/62518 (41%)]	Loss: 447.486359
+Train Epoch: 107 [38400/62518 (61%)]	Loss: 485.177124
+Train Epoch: 107 [51200/62518 (82%)]	Loss: 480.880737
+====> Epoch: 107 Average loss: 447.1670, learning rate: 1e-05, time per epoch: 0:03:14.408817
+====> Validation: deepfake images loss: 1335.498, real images loss: 1356.116, EER: 0.505, AUC: 0.491, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 108 [0/62518 (0%)]	Loss: 433.159271
+Train Epoch: 108 [12800/62518 (20%)]	Loss: 448.323944
+Train Epoch: 108 [25600/62518 (41%)]	Loss: 433.993378
+Train Epoch: 108 [38400/62518 (61%)]	Loss: 435.641144
+Train Epoch: 108 [51200/62518 (82%)]	Loss: 430.591156
+====> Epoch: 108 Average loss: 446.3470, learning rate: 1e-05, time per epoch: 0:03:14.868613
+====> Validation: deepfake images loss: 1338.081, real images loss: 1358.550, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 109 [0/62518 (0%)]	Loss: 445.287170
+Train Epoch: 109 [12800/62518 (20%)]	Loss: 433.715210
+Train Epoch: 109 [25600/62518 (41%)]	Loss: 456.785217
+Train Epoch: 109 [38400/62518 (61%)]	Loss: 447.729736
+Train Epoch: 109 [51200/62518 (82%)]	Loss: 457.562195
+====> Epoch: 109 Average loss: 445.7382, learning rate: 1e-05, time per epoch: 0:03:14.879247
+====> Validation: deepfake images loss: 1335.174, real images loss: 1356.307, EER: 0.504, AUC: 0.491, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Train Epoch: 110 [0/62518 (0%)]	Loss: 438.755676
+Train Epoch: 110 [12800/62518 (20%)]	Loss: 445.142395
+Train Epoch: 110 [25600/62518 (41%)]	Loss: 442.111755
+Train Epoch: 110 [38400/62518 (61%)]	Loss: 472.519196
+Train Epoch: 110 [51200/62518 (82%)]	Loss: 421.630951
+====> Epoch: 110 Average loss: 446.2377, learning rate: 1e-05, time per epoch: 0:03:14.398854
+====> Validation: deepfake images loss: 1337.842, real images loss: 1357.370, EER: 0.505, AUC: 0.492, BPCER(FPR)@EER: 0.505, APCER(FNR)@EER: 0.505
+Train Epoch: 111 [0/62518 (0%)]	Loss: 451.811249
+Train Epoch: 111 [12800/62518 (20%)]	Loss: 437.838440
+Train Epoch: 111 [25600/62518 (41%)]	Loss: 456.638611
+Train Epoch: 111 [38400/62518 (61%)]	Loss: 416.228394
+Train Epoch: 111 [51200/62518 (82%)]	Loss: 438.120209
+====> Epoch: 111 Average loss: 445.7838, learning rate: 1e-05, time per epoch: 0:03:14.340344
+====> Validation: deepfake images loss: 1335.893, real images loss: 1355.361, EER: 0.504, AUC: 0.492, BPCER(FPR)@EER: 0.504, APCER(FNR)@EER: 0.504
+Early stopping.
