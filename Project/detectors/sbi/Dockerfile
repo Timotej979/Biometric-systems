@@ -8,13 +8,22 @@
 
 FROM cnstark/pytorch:1.7.0-py3.8.13-ubuntu18.04
 
+# Set the timezone non-interactively, othherwise tzdata will ask for input
+ARG TZ=UTC
+ENV DEBIAN_FRONTEND=noninteractive
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 # Set the working directory
 WORKDIR /app
 
-# Install python dependencies
+# Install aptitude dependencies
 RUN apt-get update -y && \
     apt-get upgrade -y && \
-    python3 -m pip install --upgrade pip
+    python3 -m pip install --upgrade pip && \
+    apt-get install -y libgl1-mesa-dev && \
+    apt-get install -y cmake && \
+    apt-get install -y libopencv-dev
+    
 
 # Change back to the original working directory
 WORKDIR /app

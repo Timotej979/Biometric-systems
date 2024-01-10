@@ -5,7 +5,7 @@ from sklearn import metrics
 
 class SBIControler:
     def __init__(self, test_root, weights_bool):
-        if self.weights_bool:
+        if weights_bool:
             self.weights_path = 'weights/FFraw.tar'
         else:
             self.weights_path = 'weights/FFc23.tar'
@@ -17,7 +17,7 @@ class SBIControler:
 
     def get_image_paths(self):
         image_paths = []
-        
+
         # Traverse the directory recursively
         for root, dirs, files in os.walk(self.test_root):
             for file in files:
@@ -30,7 +30,7 @@ class SBIControler:
         return image_paths
 
     def run_inference(self):
-        print('Running inference on test set {} with weights {}...', self.test_root, self.weights_path)
+        print("Running inference on test set {} with weights {}...".format(self.test_root, self.weights_path))
 
         # Get the image paths
         image_paths = self.get_image_paths()
@@ -38,9 +38,11 @@ class SBIControler:
         # Run inference on each image
         output_list = []
         for image_path in image_paths:
-            print('Running inference on image {}...', image_path)
+            print('Running inference on image {}...'.format(image_path))
+            # Construct the command
+            command = 'CUDA_VISIBLE_DEVICES=* python3 /app/detector/src/inference/inference_image.py -w {} -i {}'.format(self.weights_path, image_path)
             # Run the command
-            subprocess.run(['CUDA_VISIBLE_DEVICES=* python3 src/inference/inference_image.py -w {} -i {}'.format(self.weights_path, image_path)], shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             output, error = process.communicate()
             
             # Check if error occurred
@@ -50,6 +52,7 @@ class SBIControler:
             else:
                 print(output)
                 output_list.append(output)
+                sys.exit(1)
         
 
 
@@ -62,7 +65,6 @@ if __name__ == '__main__':
     # Create the SBIControler object
     sbi_controler = SBIControler(args.test_root, args.weights_bool)
 
-    # Print the image paths
-    image_paths = sbi_controler.get_image_paths()
-    print(image_paths)
+    # Run inference
+    sbi_controler.run_inference()
         
