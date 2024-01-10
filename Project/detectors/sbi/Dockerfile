@@ -31,9 +31,5 @@ COPY . /app/detector
 # Set the working directory for the application
 WORKDIR /
 
-# CUDA_VISIBLE_DEVICES=* python3 /app/src/detector/src/inference/inference_image.py \
-#   -w /weights/FFraw.tar \
-#   -i /path/to/image.png
-
 # Set the entrypoint
-ENTRYPOINT [ "sh", "-c", "echo 'Hello World' && exit"]
+ENTRYPOINT [ "sh", "-c", "python3 /app/detector/run.py && exit 0"]
