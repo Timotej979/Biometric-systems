@@ -1,0 +1,12 @@
+Testing. Using /datasets/face-forensics/test/ for testing and using /output/output_train_20240109_183552_FF_split/weights_final_train-404.241_val-1263.203_eer-0.503_20240111_224125.pth for model weights.
+EER: 0.5120, EER treshold: 0.0321, BPCER(FPR)@EER: 0.5120, APCER(FNR)@EER: 0.5120
+PR AUC: 0.8035, F1 score: 0.8952, F1 threshold: 0.0072
+              precision    recall  f1-score   support
+
+    Deepfake       0.50      0.00      0.00     31775
+        Real       0.19      1.00      0.32      7440
+
+    accuracy                           0.19     39215
+   macro avg       0.34      0.50      0.16     39215
+weighted avg       0.44      0.19      0.06     39215
+
