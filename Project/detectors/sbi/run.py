@@ -40,6 +40,7 @@ class SBIControler:
         for image_path in image_paths:
             print('Running inference on image {}...'.format(image_path))
             # Construct the command
+            # Testing command example: python3 inference_image.py -w /app/detector/weights/FFraw.tar -i /datasets/face-forensics/test/deepfake/Face2Face/371_367/0240.png
             command = 'CUDA_VISIBLE_DEVICES=* python3 /app/detector/src/inference/inference_image.py -w {} -i {}'.format(self.weights_path, image_path)
             # Run the command
             process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)

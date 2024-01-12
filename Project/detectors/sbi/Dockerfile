@@ -28,11 +28,10 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y git
 
 # Install python dependencies
-RUN pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html && \
+RUN pip3 install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html && \
     pip3 install dlib imutils scipy pandas opencv-python tqdm pretrainedmodels imgaug efficientnet_pytorch scikit-learn&&\
     pip3 install -U retinaface_pytorch &&\
     apt-get clean
-
     
 
 # Change back to the original working directory
