@@ -6,7 +6,7 @@
 #  - 1.7.0-py3.8.13-cuda11.0.3-devel-ubuntu18.04
 #  - 1.7.0-py3.8.13-ubuntu18.04
 
-FROM cnstark/pytorch:1.7.0-py3.8.13-ubuntu18.04
+FROM cnstark/pytorch:1.7.0-py3.8.13-cuda11.0.3-devel-ubuntu18.04
 
 # Set the timezone non-interactively, othherwise tzdata will ask for input
 ARG TZ=UTC
@@ -32,16 +32,6 @@ RUN pip3 install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio==0.9.0 
     pip3 install dlib imutils scipy pandas opencv-python tqdm pretrainedmodels imgaug efficientnet_pytorch scikit-learn&&\
     pip3 install -U retinaface_pytorch &&\
     apt-get clean
-    
-
-# Change back to the original working directory
-#WORKDIR /app
-
-# Copy the requirements
-#COPY requirements.txt /app/requirements.txt
-
-# Install Python dependencies
-#RUN pip install -r requirements.txt
 
 # Copy the rest of the files
 COPY . /app/detector
