@@ -21,8 +21,8 @@ printenv | grep DETECTOR_OUTPUT_DIR
 
 # TESTING:
 #docker run -it -v $DATASET_DIR:/datasets:ro -v $DETECTOR_OUTPUT_DIR/oc-fd:/output oc-fd-image /bin/bash
-docker run -it -v $DATASET_DIR:/datasets:ro -v $DETECTOR_OUTPUT_DIR/sbi:/output sbi-image /bin/bash
+#docker run -it -v $DATASET_DIR:/datasets:ro -v $DETECTOR_OUTPUT_DIR/sbi:/output sbi-image /bin/bash
 
 # PRODUCTION:
 #docker run --gpus all --shm-size 16G -v $DATASET_DIR:/datasets:ro -v $DETECTOR_OUTPUT_DIR/oc-fd:/output oc-fd-image /bin/bash
-#docker run --gpus all --shm-size 64GB -v $DATASET_DIR:/datasets:ro -v $DETECTOR_OUTPUT_DIR/sbi:/output sbi-image /bin/bash
+docker run --gpus all --shm-size 64GB -v $DATASET_DIR:/datasets:ro -v $DETECTOR_OUTPUT_DIR/sbi:/output sbi-image /bin/bash
