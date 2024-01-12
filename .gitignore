@@ -1,11 +1,3 @@
-# Exercise 1 - Datasets
-#Exercise1/customPics/*
-#Exercise1/originalPics/*
-
-# Exercise 2 - Datasets
-#Exercise2/container/lfw-dataset/*
-#Exercise2/container/lfwa-dataset/*
-
 # Project - Datasets
 Project/detectors/sbi/weights/FF*
-#Project/datasets/face-forensics/*
+Project/detector-output/oc-fd-final/output/output_train_20240109_183552_FF_split/*.pth
