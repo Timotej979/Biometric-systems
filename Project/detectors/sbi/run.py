@@ -1,4 +1,4 @@
-import os, sys, subprocess, argparse
+import os, sys, tqdm, subprocess, argparse
 import matplotlib
 from sklearn import metrics
 
