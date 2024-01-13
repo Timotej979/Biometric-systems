@@ -19,7 +19,8 @@ RUN apt-get update && apt-get upgrade -y && \
 COPY requirements.txt /app/requirements.txt
 
 # Install Python dependencies
-RUN pip3 install -r requirements.txt && \
+RUN pip3 install scikit-build && \
+    pip3 install -r requirements.txt && \
     pip3 install -U retinaface_pytorch && \
     apt-get clean
 
