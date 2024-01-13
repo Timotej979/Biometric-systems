@@ -1,7 +1,5 @@
 # Python requirements file
-torch
-torchvision
-torchaudio
+numpy
 scikit-learn
 dlib
 imutils
