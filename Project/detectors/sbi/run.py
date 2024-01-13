@@ -40,7 +40,7 @@ class SBIControler:
         output, error = process.communicate()
         output = output.decode("utf-8")
         output = output.split('\n')
-        print(output)
+        output = int(output[1].strip('fakeness: '))
         return output
 
     def run_inference(self):
