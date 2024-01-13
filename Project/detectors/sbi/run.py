@@ -47,6 +47,7 @@ class SBIControler:
         output, error = process.communicate()
         output = output.decode("utf-8")
         output = output.split('\n')
+        print(output[1].strip('fakeness: '))
         output = float(output[1].strip('fakeness: '))
         return output
 
