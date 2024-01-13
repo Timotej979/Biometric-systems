@@ -37,7 +37,7 @@ class SBIControler:
                         print("Error: The image path {} does not contain word deepfake or real".format(image_path))
                         sys.exit(1)
     
-        return image_paths[1:10], labels[1:10]
+        return image_paths[1:30], labels[1:30]
 
     def run_inference_single(self, image_path):
         # Construct the command and execute it
@@ -48,6 +48,7 @@ class SBIControler:
         output = output.decode("utf-8")
         output = output.split('\n')
         output = output[1].strip('fakeness: ')
+        print(output)
         return float(output)
 
     def run_inference(self):
