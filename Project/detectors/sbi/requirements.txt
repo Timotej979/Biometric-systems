@@ -2,10 +2,11 @@
 torch
 torchvision
 torchaudio
+scikit-learn
+scikit-build
 dlib
 imutils
 scipy
-scikit-learn
 pandas
 opencv-python
 tqdm

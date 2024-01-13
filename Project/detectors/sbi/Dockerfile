@@ -13,11 +13,7 @@ RUN apt-get -y update && \
     apt-get -y install python3
 
 RUN apt-get update && apt-get upgrade -y && \
-    apt-get install -y libgl1-mesa-dev && \
-    apt-get install -y cmake && \
-    apt-get -y install python3-pip && \
-    apt-get -y update && apt-get install -y libopencv-dev && \
-    apt-get install -y git
+    apt-get install -y libgl1-mesa-dev cmake python3-pip libopencv-dev git
 
 # Copy the requirements
 COPY requirements.txt /app/requirements.txt
