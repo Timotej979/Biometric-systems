@@ -6,9 +6,9 @@ from sklearn import metrics
 class SBIControler:
     def __init__(self, test_root, weights_bool):
         if weights_bool:
-            self.weights_path = 'weights/FFraw.tar'
+            self.weights_path = '/app/detector/weights/FFraw.tar'
         else:
-            self.weights_path = 'weights/FFc23.tar'
+            self.weights_path = '/app/detector/weights/FFc23.tar'
 
         if test_root is None:
             self.test_root = '/datasets/face-forensics/test'
@@ -41,7 +41,7 @@ class SBIControler:
             print('Running inference on image {}...'.format(image_path))
             # Construct the command
             # Testing command example: python3 inference_image.py -w /app/detector/weights/FFraw.tar -i /datasets/face-forensics/test/deepfake/Face2Face/371_367/0240.png
-            command = 'CUDA_VISIBLE_DEVICES=* python3 /app/detector/src/inference/inference_image.py -w {} -i {}'.format(self.weights_path, image_path)
+            command = 'python3 /app/detector/src/inference/inference_image.py -w {} -i {}'.format(self.weights_path, image_path)
             # Run the command
             process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             output, error = process.communicate()
