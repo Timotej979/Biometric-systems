@@ -72,7 +72,7 @@ class SBIControler:
             file.write(os.linesep)
 
         # Run inference on each image using multiple processes and get the detection scores
-        scores = process_map(self.run_inference_single, image_paths, max_workers=self.worker_num, chunk_size=1)
+        scores = process_map(self.run_inference_single, image_paths, max_workers=self.worker_num, chunksize=1)
 
         # Print total testing time
         end_time = time.time()
