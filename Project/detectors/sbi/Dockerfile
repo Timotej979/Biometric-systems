@@ -1,5 +1,10 @@
 FROM nvidia/cuda:11.1.1-cudnn8-devel-ubuntu18.04
 
+# Set the timezone non-interactively, othherwise tzdata will ask for input
+ARG TZ=UTC
+ENV DEBIAN_FRONTEND=noninteractive
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 # Set the working directory
 WORKDIR /app
 
