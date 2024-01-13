@@ -3,12 +3,6 @@ FROM nvidia/cuda:11.1.1-cudnn8-devel-ubuntu18.04
 # Set the working directory
 WORKDIR /app
 
-# Install CUDA dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    libcudnn8=8.2.2.26-1+cuda11.2 \
-    libcudnn8-dev=8.2.2.26-1+cuda11.2 \
-    && rm -rf /var/lib/apt/lists/*
-
 # Install aptitude dependencies
 RUN apt-get -y update && \
     apt-get -y install python3
