@@ -1,4 +1,7 @@
-# Pyton requirements file
+# Python requirements file
+torch
+torchvision
+torchaudio
 dlib
 imutils
 scipy
