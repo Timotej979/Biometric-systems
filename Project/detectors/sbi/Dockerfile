@@ -6,7 +6,7 @@
 #  - 1.7.0-py3.8.13-cuda11.0.3-devel-ubuntu18.04
 #  - 1.7.0-py3.8.13-ubuntu18.04
 
-FROM cnstark/pytorch:1.7.0-py3.8.13-cuda11.0.3-devel-ubuntu18.04
+FROM cnstark/pytorch:1.7.0-py3.8.13-cuda11.0.3-ubuntu18.04
 
 # Set the timezone non-interactively, othherwise tzdata will ask for input
 ARG TZ=UTC
