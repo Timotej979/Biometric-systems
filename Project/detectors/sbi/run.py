@@ -37,7 +37,7 @@ class SBIControler:
                         print("Error: The image path {} does not contain word deepfake or real".format(image_path))
                         sys.exit(1)
     
-        return image_paths[1:30], labels[1:30]
+        return image_paths, labels
 
     def run_inference_single(self, image_path):
         # Construct the command and execute it
@@ -47,9 +47,7 @@ class SBIControler:
         output, error = process.communicate()
         output = output.decode("utf-8")
         output = output.split('\n')
-        print(output)
         output = output[1].strip('fakeness: ')
-        print(output)
         return float(output)
 
     def run_inference(self):
@@ -75,9 +73,6 @@ class SBIControler:
 
         # Run inference on each image using multiple processes and get the detection scores
         scores = process_map(self.run_inference_single, image_paths, max_workers=self.worker_num, chunksize=1)
-
-        print(labels)
-        print(scores)
 
         # Print total testing time
         end_time = time.time()
