@@ -525,8 +525,8 @@ class ModelControler:
         print(f"AUC: {roc_auc}")
 
         ## Calculate EER, treshold@EER, APCER@EER and BPCER@EER
-        # APCER - proportion of morphed images incorrectly classified as bona fide - false negative rate
-        # BPCER - proportion of bona fide images incorrectly classified as morphs - false positive rate
+        # APCER - proportion of deepfakes incorrectly classified as real images - false negative rate
+        # BPCER - proportion of real images incorrectly classified as deepfakes - false positive rate
         fnr = 1 - tpr
         eer_threshold = thresholds[np.nanargmin(np.absolute((fnr - fpr)))]
         eer = fpr[np.nanargmin(np.absolute((fnr - fpr)))]
