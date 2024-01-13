@@ -47,9 +47,8 @@ class SBIControler:
         output, error = process.communicate()
         output = output.decode("utf-8")
         output = output.split('\n')
-        print(output[1].strip('fakeness: '))
-        output = float(output[1].strip('fakeness: '))
-        return output
+        output = output[1].strip('fakeness: ')
+        return float(output)
 
     def run_inference(self):
         # Get the image paths
@@ -74,6 +73,9 @@ class SBIControler:
 
         # Run inference on each image using multiple processes and get the detection scores
         scores = process_map(self.run_inference_single, image_paths, max_workers=self.worker_num, chunksize=1)
+
+        print(labels)
+        print(scores)
 
         # Print total testing time
         end_time = time.time()
