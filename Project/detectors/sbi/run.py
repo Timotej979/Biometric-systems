@@ -37,8 +37,7 @@ class SBIControler:
 
         # Run inference on each image
         output_list = []
-        for image_path in image_paths:
-            print('Running inference on image {}...'.format(image_path))
+        for image_path in tqdm(image_paths):
             # Construct the command
             # Testing command example: python3 inference_image.py -w /app/detector/weights/FFraw.tar -i /datasets/face-forensics/test/deepfake/Face2Face/371_367/0240.png
             command = 'python3 /app/detector/src/inference/inference_image.py -w {} -i {}'.format(self.weights_path, image_path)
@@ -46,14 +45,10 @@ class SBIControler:
             process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             output, error = process.communicate()
             
-            # Check if error occurred
-            if error:
-                print(error)
-                sys.exit(1)
-            else:
-                print(output)
-                output_list.append(output)
-                sys.exit(1)
+            # Get the output
+            output = output.decode("utf-8")
+            output = output.split('\n')
+            print(output)
         
 
 
