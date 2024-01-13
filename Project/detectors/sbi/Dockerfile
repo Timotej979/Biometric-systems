@@ -24,7 +24,7 @@ RUN apt-get update && apt-get upgrade -y && \
 
 # Install Python dependencies
 RUN pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html && \
-    pip3 install dlib imutils scipy pandas opencv-python tqdm pretrainedmodels imgaug efficientnet-pytorch && \
+    pip3 install dlib imutils scipy pandas scikit-learn opencv-python tqdm pretrainedmodels imgaug efficientnet-pytorch && \
     pip3 install -U retinaface-pytorch && \
     apt-get clean
 
