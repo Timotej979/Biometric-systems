@@ -1,0 +1,10 @@
+name: video_frame_extractor
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - opencv
+  - dlib
+  - pip:
+    - ffpyplayer
