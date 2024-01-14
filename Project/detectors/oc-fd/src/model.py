@@ -26,6 +26,7 @@ from torchvision.utils import save_image
 from torch.nn.modules.module import _addindent
 from torch.utils.data import DataLoader
 from torchsummary import summary
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 
 
@@ -227,7 +228,8 @@ class ModelControler:
         print("Creating the model...")
         model = VAE_CNN().to(device)
         optimizer = optim.Adam(model.parameters(), lr=self.lr_initial)
-        
+        scheduler = ReduceLROnPlateau(optimizer, mode='min', threshold_mode='rel', factor=0.1, patience=20, threshold=0.01, cooldown=0, eps=1e-5,verbose=True)
+
         # Loss function
         loss_mse = customLoss()
 
@@ -359,6 +361,18 @@ class ModelControler:
             with open(os.path.join(self.output_dir + output_time_dir, log_filename), 'a') as file:
                 file.write(out_string)
                 file.write(os.linesep)
+
+            scheduler.step(val_loss_bf)
+            print(f'Number of bad epochs: {scheduler.num_bad_epochs}')
+
+            # If scheduler reached the lr limit and there are too many bad epochs, early stop the training.
+            if (scheduler.num_bad_epochs >= scheduler.patience) and (optimizer.state_dict()['param_groups'][0]['lr'] * scheduler.factor < scheduler.eps):
+                out_string = f'Early stopping.'
+                print(out_string)
+                with open(os.path.join(output_root_dir, log_filename), 'a') as file:
+                    file.write(out_string)
+                    file.write(os.linesep)
+                break
 
             # Save the weights every 10-th epoch
             if (epoch % 10) == 0:
