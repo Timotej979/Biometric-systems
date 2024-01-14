@@ -360,7 +360,7 @@ class ModelControler:
                 file.write(out_string)
                 file.write(os.linesep)
 
-            # Save the weights every n-th epoch
+            # Save the weights every 10-th epoch
             if (epoch % 10) == 0:
                 current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
                 filename = f'weights_autosave_{epoch}_train-{train_losses[-1]:.3f}_val-{val_losses_df[-1]:.3f}_eer-{eers[-1]:.3f}_{current_datetime}.pth'
@@ -554,9 +554,9 @@ class ModelControler:
 
         # Add legend
         real_patch = mpatches.Patch(color='blue', label='Deepfake')
-        morph_patch = mpatches.Patch(color='green', label='Real')
+        df_patch = mpatches.Patch(color='green', label='Real')
         threshold_line = plt.Line2D([0], [0], color='red', linestyle='dashed', linewidth=2, label='Threshold')
-        plt.legend(handles=[real_patch, morph_patch, threshold_line], loc='upper right')
+        plt.legend(handles=[real_patch, df_patch, threshold_line], loc='upper right')
         
         plt.tight_layout()
         filename = f'distribution_{dataset_name}_{current_datetime}.svg'
@@ -614,10 +614,10 @@ if __name__ == '__main__':
 
     parser.add_argument('--train', action='store_true', help='Train the model.')
     parser.add_argument('--test', action='store_true', help="Test the model.")
-    parser.add_argument('--traindata', type=str, help='Location of the training dataset. Used for training. Contains only bonafide class.')
-    parser.add_argument('--valdata', type=str, help="Location of the validation dataset. Used when training. Contains bonafide and morph classes.")
+    parser.add_argument('--traindata', type=str, help='Location of the training dataset. Used for training. Contains only real class.')
+    parser.add_argument('--valdata', type=str, help="Location of the validation dataset. Used when training. Contains real and deepfake classes.")
 
-    parser.add_argument('--testdata', type=str, help="Path to test dataset, containing bonafide and morph classes.")
+    parser.add_argument('--testdata', type=str, help="Path to test dataset, containing real and deepfake classes.")
     parser.add_argument('--weights', type=str, help="Path to model weights. Loaded when testing the model.")
 
     # Parse the arguments
