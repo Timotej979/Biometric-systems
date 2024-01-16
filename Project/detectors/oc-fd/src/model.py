@@ -178,7 +178,7 @@ class ModelControler:
             self.weights_flag = False
 
         # Training parameters
-        self.batch_size = 256
+        self.batch_size = 1024
         self.epochs = 200
         self.logging_interval = 50
         self.lr_initial = 1e-3
