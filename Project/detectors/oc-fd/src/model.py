@@ -178,7 +178,7 @@ class ModelControler:
             self.weights_flag = False
 
         # Training parameters
-        self.batch_size = 256
+        self.batch_size = 512
         self.epochs = 1
         self.logging_interval = 50
         self.lr_initial = 1e-3
@@ -362,7 +362,7 @@ class ModelControler:
                 file.write(out_string)
                 file.write(os.linesep)
 
-            scheduler.step(val_loss_bf)
+            scheduler.step(val_loss_df)
             print(f'Number of bad epochs: {scheduler.num_bad_epochs}')
 
             # If scheduler reached the lr limit and there are too many bad epochs, early stop the training.
