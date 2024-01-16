@@ -161,7 +161,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run inference on a test set.')
     parser.add_argument('--test_root', type=str, default=None, help='The root directory of the test set.')
     parser.add_argument('--weights_bool', type=bool, default=True, help='The weights to use for inference.')
-    parser.add_argument('--worker_num', type=int, default=32, help='The number of workers to use for inference.')
+    parser.add_argument('--worker_num', type=int, default=128, help='The number of workers to use for inference.')
     args = parser.parse_args()
 
     # Create the SBIControler object
