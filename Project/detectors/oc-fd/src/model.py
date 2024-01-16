@@ -178,8 +178,8 @@ class ModelControler:
             self.weights_flag = False
 
         # Training parameters
-        self.batch_size = 1024
-        self.epochs = 200
+        self.batch_size = 256
+        self.epochs = 1
         self.logging_interval = 50
         self.lr_initial = 1e-3
 
@@ -515,15 +515,27 @@ class ModelControler:
         # Get ROC curve and AUC
         fpr, tpr, thresholds = metrics.roc_curve(labels, scores, pos_label=0)
         roc_auc = metrics.auc(fpr, tpr)
+        # Calculate Equal Error Rate (EER)
+        eer_threshold = thresholds[np.argmin(np.abs(fpr - (1 - tpr)))]
+        eer = fpr[np.argmin(np.abs(fpr - (1 - tpr)))]
+
+
         # Save the ROC curve to output directory
         plt.figure(figsize=(15, 10))
-        plt.plot(fpr, tpr, c="dodgerblue")
+        plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %.2f)' % roc_auc)
         plt.title("ROC curve", fontsize=18)
-        plt.xlabel("FPR", fontsize=18)
-        plt.ylabel("TPR", fontsize=18)
+        plt.xlabel("False Positive Rate", fontsize=18)
+        plt.ylabel("True Positive Rate", fontsize=18)
         filename = f'ROC_{dataset_name}_{current_datetime}.svg'
+
+        # Display EER as a point on the graph
+        plt.plot(eer, 1 - eer, marker='o', markersize=6, color="red")
+        plt.annotate("(%.4f, %.4f)" % (eer, 1 - eer), xy=(eer, 1 - eer), xytext=(eer - 0.2, 1 - eer + 0.1), color="red")
+
+        # Save the figure
         plt.savefig( os.path.join(self.output_dir + output_time_dir, filename))
         print(f"AUC: {roc_auc}")
+
 
         ## Calculate EER, treshold@EER, APCER@EER and BPCER@EER
         # APCER - proportion of deepfakes incorrectly classified as real images - false negative rate
@@ -591,17 +603,6 @@ class ModelControler:
         with open(os.path.join(self.output_dir + output_time_dir, log_filename), 'a') as file:
             file.write(out_string)
             file.write(os.linesep)
-
-        # Plot Precision-Recall curve
-        plt.figure(figsize=(15, 10))
-        plt.plot(recall, precision, color='blue', lw=2, label='PR curve (AUC = {:.2f})'.format(pr_auc))
-        plt.scatter(recall[f1_max_idx], precision[f1_max_idx], marker='o', color='red', label='F1 point ({:.4f}, {:.4f})'.format(recall[f1_max_idx], precision[f1_max_idx]))
-        plt.xlabel('Recall')
-        plt.ylabel('Precision')
-        plt.title('Precision-Recall (PR) Curve')
-        plt.legend(loc="lower left")
-        filename = f'PR_{dataset_name}_{current_datetime}.svg'
-        plt.savefig(os.path.join(self.output_dir + output_time_dir, filename))
 
         # Generate classification report
         y_pred = (np.array(scores) > f1_max_threshold).astype(int)

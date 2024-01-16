@@ -133,17 +133,6 @@ class SBIControler:
             file.write(out_string)
             file.write(os.linesep)
 
-        # Plot Precision-Recall curve
-        plt.figure(figsize=(15, 10))
-        plt.plot(recall, precision, color='blue', lw=2, label='PR curve (AUC = {:.2f})'.format(pr_auc))
-        plt.scatter(recall[f1_max_idx], precision[f1_max_idx], marker='o', color='red', label='F1 point ({:.4f}, {:.4f})'.format(recall[f1_max_idx], precision[f1_max_idx]))
-        plt.xlabel('Recall')
-        plt.ylabel('Precision')
-        plt.title('Precision-Recall (PR) Curve')
-        plt.legend(loc="lower left")
-        filename = f'PR_{dataset_name}_{current_datetime}.svg'
-        plt.savefig(os.path.join(self.output_dir + output_time_dir, filename))
-
         # Generate classification report
         y_pred = (np.array(scores) > f1_max_threshold).astype(int)
         target_names = ['Deepfake', 'Real']
