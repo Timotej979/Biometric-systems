@@ -179,7 +179,7 @@ class ModelControler:
 
         # Training parameters
         self.batch_size = 512
-        self.epochs = 1
+        self.epochs = 200
         self.logging_interval = 50
         self.lr_initial = 1e-3
 
