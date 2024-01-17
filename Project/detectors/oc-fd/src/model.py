@@ -178,8 +178,8 @@ class ModelControler:
             self.weights_flag = False
 
         # Training parameters
-        self.batch_size = 512
-        self.epochs = 200
+        self.batch_size = 650
+        self.epochs = 300
         self.logging_interval = 50
         self.lr_initial = 1e-3
 
@@ -204,7 +204,7 @@ class ModelControler:
         transforms.Resize((100, 100)),
         # transforms.CenterCrop(100),
         transforms.RandomHorizontalFlip(),
-        # transforms.RandomVerticalFlip(),
+        transforms.RandomVerticalFlip(),
         transforms.ToTensor(),
         transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
         ])
@@ -228,7 +228,7 @@ class ModelControler:
         print("Creating the model...")
         model = VAE_CNN().to(device)
         optimizer = optim.Adam(model.parameters(), lr=self.lr_initial)
-        scheduler = ReduceLROnPlateau(optimizer, mode='min', threshold_mode='rel', factor=0.1, patience=20, threshold=0.01, cooldown=0, eps=1e-5,verbose=True)
+        scheduler = ReduceLROnPlateau(optimizer, mode='min', threshold_mode='rel', factor=0.1, patience=30, threshold=0.01, cooldown=0, eps=1e-5,verbose=True)
 
         # Loss function
         loss_mse = customLoss()
@@ -369,7 +369,7 @@ class ModelControler:
             if (scheduler.num_bad_epochs >= scheduler.patience) and (optimizer.state_dict()['param_groups'][0]['lr'] * scheduler.factor < scheduler.eps):
                 out_string = f'Early stopping.'
                 print(out_string)
-                with open(os.path.join(output_root_dir, log_filename), 'a') as file:
+                with open(os.path.join(self.output_dir + output_time_dir, log_filename), 'a') as file:
                     file.write(out_string)
                     file.write(os.linesep)
                 break
@@ -445,7 +445,7 @@ class ModelControler:
         #     transforms.Resize((100,100)),
         #     # transforms.CenterCrop(100),
         #     transforms.RandomHorizontalFlip(),
-        #     # transforms.RandomVerticalFlip(),
+        #     transforms.RandomVerticalFlip(),
         #     transforms.ToTensor(),
         #     transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
         # ])
