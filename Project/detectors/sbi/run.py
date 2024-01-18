@@ -82,12 +82,20 @@ class SBIControler:
         # Get ROC curve and AUC
         fpr, tpr, thresholds = metrics.roc_curve(labels, scores, pos_label=0)
         roc_auc = metrics.auc(fpr, tpr)
+        # Calculate Equal Error Rate (EER)
+        eer_threshold = thresholds[np.argmin(np.abs(fpr - (1 - tpr)))]
+        eer = fpr[np.argmin(np.abs(fpr - (1 - tpr)))]
+
         # Save the ROC curve to output directory
         plt.figure(figsize=(15, 10))
         plt.plot(fpr, tpr, c="dodgerblue")
         plt.title("ROC curve", fontsize=18)
         plt.xlabel("FPR", fontsize=18)
         plt.ylabel("TPR", fontsize=18)
+        # Display EER as a point on the graph
+        plt.plot(eer, 1 - eer, marker='o', markersize=6, color="red")
+        plt.annotate("(%.4f, %.4f)" % (eer, 1 - eer), xy=(eer, 1 - eer), xytext=(eer - 0.2, 1 - eer + 0.1), color="red")
+        # Save the ROC curve to output directory
         filename = f'ROC_{dataset_name}_{current_datetime}.svg'
         plt.savefig( os.path.join(self.output_dir + output_time_dir, filename))
         print(f"AUC: {roc_auc}")
