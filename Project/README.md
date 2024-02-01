@@ -185,10 +185,15 @@ F1 = 2 \cdot \frac{P \cdot R}{P + R}
 
 Here we present our experimental results training and testing the OC-FakeDect detector and only testing the SBI detector since it was pretrained. As a baseline for performance we will reference the data from a simmilar study [8] writen by Ivanovska et al. as it provides a similar insight to the topic as ours.
 
-| **Stage**       | **Training dataset**                        | **Testing dataset**                         | **ResNet50 (discriminative)** | **GANomaly (one-class)** |
-|-----------------|--------------------------------------------|--------------------------------------------|-------------------------------|---------------------------|
-| **Matched**     | UADFV FF-FS Celeb-DF                      | UADFV FF-FS Celeb-DF                      | 0.947 0.966 0.938            | 0.880 0.868 0.746          |
-| **Cross**       | UADFV UADFV FF-FS FF-FS Celeb-DF Celeb-DF | FF-FS Celeb-DF UADFV Celeb-DF UADFV FF-Fs | 0.622 0.531 0.763 0.561 0.574 0.527 | 0.768 0.704 0.794 0.608 0.772 0.680 |
+| **Stage** | **Training dataset** | **Testing dataset** | **ResNet50 (discriminative)** | **GANomaly (one-class)** |
+|------------|-----------------------|----------------------|-------------------------------|---------------------------|
+| **Matched dataset** | UADFV | UADFV | 0.947 | 0.880 |
+| | FF-FS | FF-FS | 0.966 | 0.868 |
+| | Celeb-DF | Celeb-DF | 0.938 | 0.746 |
+| **Cross dataset** | UADFV FF-FS Celeb-DF | FF-FS Celeb-DF UADFV Celeb-DF UADFV FF-Fs | 0.622 0.531 0.763 | 0.768 0.704 0.794 |
+| | UADFV FF-FS | UADFV Celeb-DF | 0.561 | 0.608 |
+| | Celeb-DF UADFV | UADFV FF-Fs | 0.574 | 0.772 |
+| | | | 0.527 | 0.680 |
 
 ### Data preprocessing
 
