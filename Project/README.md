@@ -49,19 +49,20 @@ face challenges such as low-quality synthesized faces, visible splicing boundari
 
 | **Dataset**                   | **Real images** | **Deepfake images** | **Real videos** | **Deepfake videos** | **Generation techniques** | **Low Resolution** | **Source**                           |
 |-------------------------------|------------------|---------------------|-----------------|---------------------|---------------------------|---------------------|---------------------------------------|
-| EBV \cite{EBV-ds}             | - [ ]            | - [ ]               | 50              | 50                  | 1                         | - [ ]               | YouTube                               |
-| UADFV \cite{UADFV-ds}         | 241              | 252                 | 49              | 49                  | 1                         | - [ ]               | YouTube                               |
-| Celeb-DF \cite{CELEBDF-ds}    | - [ ]            | - [ ]               | 590             | 5,639               | 1                         | - [ ]               | YouTube                               |
-| FaceForensics++ \cite{FF-ds}   | - [ ]            | - [ ]               | 1,000           | 4,000               | 4                         | - [ ]               | YouTube                               |
-| DFDC \cite{DFDC-ds}            | - [ ]            | - [ ]               | 23,654          | 104,500             | 8                         | - [ ]               | Self Recording                        |
-| DeepfakeTIMIT \cite{DFTIMIT-ds}| - [ ]            | - [ ]               | 320             | 640                 | 2                         | - [x]               | VidTIMIT                              |
-| WildDeepfake \cite{WildDF-ds}  | - [ ]            | - [ ]               | 707             | 707                 | Not known                 | - [ ]               | Internet                              |
-| OpenForensics \cite{OpenForensics-ds} | 45,473   | 70,325              | - [ ]           | - [ ]               | 1                         | - [ ]               | Google Open Images                    |
-| FFHQ \cite{FFHQ-ds}            | 70,000           | 0                   | - [ ]           | - [ ]               | 0                         | - [ ]               | Flickr                                |
+| EBV \cite{EBV-ds}             | no               | no                  | 50              | 50                  | 1                         | no                  | YouTube                               |
+| UADFV \cite{UADFV-ds}         | 241              | 252                 | 49              | 49                  | 1                         | no                  | YouTube                               |
+| Celeb-DF \cite{CELEBDF-ds}    | no               | no                  | 590             | 5,639               | 1                         | no                  | YouTube                               |
+| FaceForensics++ \cite{FF-ds}   | no               | no                  | 1,000           | 4,000               | 4                         | no                  | YouTube                               |
+| DFDC \cite{DFDC-ds}            | no               | no                  | 23,654          | 104,500             | 8                         | no                  | Self Recording                        |
+| DeepfakeTIMIT \cite{DFTIMIT-ds}| no               | no                  | 320             | 640                 | 2                         | yes                | VidTIMIT                              |
+| WildDeepfake \cite{WildDF-ds}  | no               | no                  | 707             | 707                 | Not known                 | no                  | Internet                              |
+| OpenForensics \cite{OpenForensics-ds} | 45,473   | 70,325              | no              | no                  | 1                         | no                  | Google Open Images                    |
+| FFHQ \cite{FFHQ-ds}            | 70,000           | 0                   | no              | no                  | 0                         | no                  | Flickr                                |
 | DFFD \cite{DFFD-ds}            | 58,703           | 240,336             | 1,000           | 3,000               | 7                         | Both included       | FFHQ, FF++, CelebA                    |
-| FFIW-10K \cite{FFIW-ds}        | - [ ]            | - [ ]               | 0               | 10,000              | 3                         | - [ ]               | YouTube                               |
-| DeeperForensics-1.0 \cite{DEEPERFORENSICS-ds} | - [ ] | - [ ]               | 10,000          | 50,000              | 1                         | - [ ]               | Self Recording                        |
+| FFIW-10K \cite{FFIW-ds}        | no               | no                  | 0               | 10,000              | 3                         | no                  | YouTube                               |
+| DeeperForensics-1.0 \cite{DEEPERFORENSICS-ds} | no  | no                  | 10,000          | 50,000              | 1                         | no                  | Self Recording                        |
 | ForgeryNet \cite{FORGERYNET-ds}| 1,438,201        | 1,457,861           | 99,630          | 121,617             | 15                        | Both included       | CREMA-D, RAVDESS, VoxCeleb2, AVSpeech |
+
 
 ### Discriminatively trained detection models
 
@@ -118,40 +119,51 @@ Figure 4: **OC-FakeDect-2 architecture.** Variational autoencoder used in the mo
 
 ### Evaluation methodology
 
-The default output of each detector is a binary representation for the given image indicating whether the image represents a deepfake or not. Using the predefined labels that tell whether the image is or is not a deepfake, we can calculate the true/false positive rate \(TPR/FPR\) and the true/false negative rate \(TNR/FNR\).
+The default output of each detector is a binary representation for the given image indicating whether the image represents a deepfake or not. Using the predefined labels that tell whether the image is or is not a deepfake, we can calculate the true/false positive rate $`TPR/FPR`$ and the true/false negative rate $`TNR/FNR`$.
 
+```math
 \[TPR = \frac{True\ Positives}{True\ Positives + False\ Negatives} = 1 - FNR\]
 \[FNR = \frac{False\ Negatives}{True\ Positives + False\ Negatives} = 1 - TPR\]
 
 \[TNR = \frac{True\ Negatives}{True\ Negatives + False\ Positives} = 1 - FPR\]
 \[FPR = \frac{False\ Positives}{False\ Positives + True\ Negatives} = 1 - TNR\]
+```
 
-After this, we can calculate the receiver-operating-characteristic (ROC) curve and the area under it (AUC-ROC). The ROC curve visually represents the trade-off between True Positive Rate (sensitivity) and False Positive Rate at different classification thresholds. It is especially useful for assessing a classifier's ability to discriminate between classes, providing a concise summary of its performance characteristics. To calculate it, we have to vary the threshold \(T_i\) within the detector threshold range \(THR_{det}\) to calculate the above four performance measures for different thresholds. As two of the above measures are mutually exclusive, we use only one pair of them, specifically the \(FPR\) and \(TPR\) values. The ROC curve is then defined as a function of \(FPR(T_i)\) on the x-axis and \(TPR(T_i)\) on the y-axis, representing the performance of a detector.
+After this, we can calculate the receiver-operating-characteristic (ROC) curve and the area under it (AUC-ROC). The ROC curve visually represents the trade-off between True Positive Rate (sensitivity) and False Positive Rate at different classification thresholds. It is especially useful for assessing a classifier's ability to discriminate between classes, providing a concise summary of its performance characteristics. To calculate it, we have to vary the threshold $`T_i`$ within the detector threshold range $`THR_{det}`$ to calculate the above four performance measures for different thresholds. As two of the above measures are mutually exclusive, we use only one pair of them, specifically the $`FPR`$ and $`TPR`$ values. The ROC curve is then defined as a function of $`FPR(T_i)`$ on the x-axis and $`TPR(T_i)`$ on the y-axis, representing the performance of a detector.
 
+```math
 \[\forall \ T_i \in THR_{det}\ \ \exists\ \ FPR(T_i), TPR(T_i)\]
 \[\forall \ FPR(T_i),\ TPR(T_i) \quad \exists \quad f_{ROC}(FPR(T_i)) = TPR(T_i)\]
+```
 
 Area under the curve for a ROC is then defined as an integral over the whole threshold range of the curve.
 
+```math
 \[AUC_{ROC} = \int_{T_0}^{T_k} TPR(T_i) \ \ dFPR(T_i)\]
+```
 
-For balancing the values of \(FPR\) and \(FNR\) on the ROC curve, we use the equal error rate \(EER\), which represents the point on the curve where the values of \(FPR\) and \(TPR\) are the same.
+For balancing the values of $`FPR`$ and $`FNR`$ on the ROC curve, we use the equal error rate $`EER`$, which represents the point on the curve where the values of $`FPR`$ and $`TPR`$ are the same.
 
+```math
 \[\forall FPR(T_i),\ FNR(T_i) \quad \exists \quad m: \ FPR(T_m) = FNR(T_m) \]
 \[\implies EER\ =\ {FPR(T_m), 1 - TPR(T_m)} \]
+```
 
-A similar performance measure to the ROC curve is the precision-recall (PR) curve. The PR curve is a graphical representation of the trade-off between precision and recall for different classification thresholds. The PR curve is especially useful when dealing with imbalanced datasets, where one class significantly outnumbers the other. First, we have to calculate the precision \(P\) and recall \(R\).
+A similar performance measure to the ROC curve is the precision-recall (PR) curve. The PR curve is a graphical representation of the trade-off between precision and recall for different classification thresholds. The PR curve is especially useful when dealing with imbalanced datasets, where one class significantly outnumbers the other. First, we have to calculate the precision $`P`$ and recall $`R`$.
 
+```math
 \[P = \frac{True\ Positives}{True\ Positives + False\ Positives}\]
 \[R = \frac{True\ Positives}{True\ Positives + False\ Negatives} = TPR\]
+```
 
-Similar to the ROC curve, we vary the threshold \(T_i\) within the detected threshold range \(THR_{det}\) to calculate the precision \(P\), recall \(R\), and \(F1\) score.
+Similar to the ROC curve, we vary the threshold $`T_i`$ within the detected threshold range $`THR_{det}`$ to calculate the precision $`P`$, recall $`R`$, and $`F1`$ score.
 
+```math
 \[\forall \ T_i \in THR_{det}\ \ \exists\ \ P(T_i),\ R(T_i)\]
 \[\forall \ P(T_i),\ R(T_i) \quad \exists \quad f_{PR}(R(T_i)) = P(T_i)\]
 
 \[F1 = 2 \cdot \frac{P \cdot R}{P + R}\]
-
+```
 
 ## Experiments
 
