@@ -219,7 +219,7 @@ The results of our training and testing methods described above are shown in the
 | SBI           | 0.91 | 0.81      | 1.00   | 0.90 |
 | OC-FakeDect2  | 0.50 | 0.19      | 1.00   | 0.32 |
 
-As we can see the SBI detector performs within reason, however the OC-FakeDect detector does not in regards to the original studies [23] [11]. Below we also present the ROCs regarding both detectors 5. In light of the results we did not proceed with the cross-manipulation testing since it would be pointless if one of the detectors did not perform as expected or was wrongfully trained. As such we repeatedly trained the one-class detector multiple times with different variations of parameters which could potentially yield promising results, however unsuccessfully. Since this is the final result we can discuss potential problems with the training process of the one-class detector in the ablation study.
+As we can see the SBI detector performs within reason, however the OC-FakeDect detector does not in regards to the original studies [23] [11]. Below we also present the ROCs regarding both detectors. In light of the results we did not proceed with the cross-manipulation testing since it would be pointless if one of the detectors did not perform as expected or was wrongfully trained. As such we repeatedly trained the one-class detector multiple times with different variations of parameters which could potentially yield promising results, however unsuccessfully. Since this is the final result we can discuss potential problems with the training process of the one-class detector in the ablation study.
 
 ![SBI-roc](./docs/assets/SBI-roc.png)
 
