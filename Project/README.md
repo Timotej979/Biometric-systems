@@ -123,18 +123,24 @@ The default output of each detector is a binary representation for the given ima
 
 ```math
 TPR = \frac{True\ Positives}{True\ Positives + False\ Negatives} = 1 - FNR
+```
+```math
 FNR = \frac{False\ Negatives}{True\ Positives + False\ Negatives} = 1 - TPR
 ```
 
 ```math
-\[TNR = \frac{True\ Negatives}{True\ Negatives + False\ Positives} = 1 - FPR\]
-\[FPR = \frac{False\ Positives}{False\ Positives + True\ Negatives} = 1 - TNR\]
+TNR = \frac{True\ Negatives}{True\ Negatives + False\ Positives} = 1 - FPR
+```
+```math
+FPR = \frac{False\ Positives}{False\ Positives + True\ Negatives} = 1 - TNR
 ```
 
 After this, we can calculate the receiver-operating-characteristic (ROC) curve and the area under it (AUC-ROC). The ROC curve visually represents the trade-off between True Positive Rate (sensitivity) and False Positive Rate at different classification thresholds. It is especially useful for assessing a classifier's ability to discriminate between classes, providing a concise summary of its performance characteristics. To calculate it, we have to vary the threshold $`T_i`$ within the detector threshold range $`THR_{det}`$ to calculate the above four performance measures for different thresholds. As two of the above measures are mutually exclusive, we use only one pair of them, specifically the $`FPR`$ and $`TPR`$ values. The ROC curve is then defined as a function of $`FPR(T_i)`$ on the x-axis and $`TPR(T_i)`$ on the y-axis, representing the performance of a detector.
 
 ```math
 \forall \ T_i \in THR_{det}\ \ \exists\ \ FPR(T_i), TPR(T_i)
+```
+```math
 \forall \ FPR(T_i),\ TPR(T_i) \quad \exists \quad f_{ROC}(FPR(T_i)) = TPR(T_i)
 ```
 
@@ -148,6 +154,8 @@ For balancing the values of $`FPR`$ and $`FNR`$ on the ROC curve, we use the equ
 
 ```math
 \forall FPR(T_i),\ FNR(T_i) \quad \exists \quad m: \ FPR(T_m) = FNR(T_m)
+```
+```math
 \implies EER\ =\ {FPR(T_m), 1 - TPR(T_m)} 
 ```
 
@@ -155,6 +163,8 @@ A similar performance measure to the ROC curve is the precision-recall (PR) curv
 
 ```math
 P = \frac{True\ Positives}{True\ Positives + False\ Positives}
+```
+```math
 R = \frac{True\ Positives}{True\ Positives + False\ Negatives} = TPR
 ```
 
@@ -162,8 +172,12 @@ Similar to the ROC curve, we vary the threshold $`T_i`$ within the detected thre
 
 ```math
 \forall \ T_i \in THR_{det}\ \ \exists\ \ P(T_i),\ R(T_i)
+```
+```math
 \forall \ P(T_i),\ R(T_i) \quad \exists \quad f_{PR}(R(T_i)) = P(T_i)
+```
 
+```math
 F1 = 2 \cdot \frac{P \cdot R}{P + R}
 ```
 
