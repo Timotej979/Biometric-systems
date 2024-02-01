@@ -122,9 +122,11 @@ Figure 4: **OC-FakeDect-2 architecture.** Variational autoencoder used in the mo
 The default output of each detector is a binary representation for the given image indicating whether the image represents a deepfake or not. Using the predefined labels that tell whether the image is or is not a deepfake, we can calculate the true/false positive rate $`TPR/FPR`$ and the true/false negative rate $`TNR/FNR`$.
 
 ```math
-\[TPR = \frac{True\ Positives}{True\ Positives + False\ Negatives} = 1 - FNR\]
-\[FNR = \frac{False\ Negatives}{True\ Positives + False\ Negatives} = 1 - TPR\]
+TPR = \frac{True\ Positives}{True\ Positives + False\ Negatives} = 1 - FNR
+FNR = \frac{False\ Negatives}{True\ Positives + False\ Negatives} = 1 - TPR
+```
 
+```math
 \[TNR = \frac{True\ Negatives}{True\ Negatives + False\ Positives} = 1 - FPR\]
 \[FPR = \frac{False\ Positives}{False\ Positives + True\ Negatives} = 1 - TNR\]
 ```
@@ -132,37 +134,37 @@ The default output of each detector is a binary representation for the given ima
 After this, we can calculate the receiver-operating-characteristic (ROC) curve and the area under it (AUC-ROC). The ROC curve visually represents the trade-off between True Positive Rate (sensitivity) and False Positive Rate at different classification thresholds. It is especially useful for assessing a classifier's ability to discriminate between classes, providing a concise summary of its performance characteristics. To calculate it, we have to vary the threshold $`T_i`$ within the detector threshold range $`THR_{det}`$ to calculate the above four performance measures for different thresholds. As two of the above measures are mutually exclusive, we use only one pair of them, specifically the $`FPR`$ and $`TPR`$ values. The ROC curve is then defined as a function of $`FPR(T_i)`$ on the x-axis and $`TPR(T_i)`$ on the y-axis, representing the performance of a detector.
 
 ```math
-\[\forall \ T_i \in THR_{det}\ \ \exists\ \ FPR(T_i), TPR(T_i)\]
-\[\forall \ FPR(T_i),\ TPR(T_i) \quad \exists \quad f_{ROC}(FPR(T_i)) = TPR(T_i)\]
+\forall \ T_i \in THR_{det}\ \ \exists\ \ FPR(T_i), TPR(T_i)
+\forall \ FPR(T_i),\ TPR(T_i) \quad \exists \quad f_{ROC}(FPR(T_i)) = TPR(T_i)
 ```
 
 Area under the curve for a ROC is then defined as an integral over the whole threshold range of the curve.
 
 ```math
-\[AUC_{ROC} = \int_{T_0}^{T_k} TPR(T_i) \ \ dFPR(T_i)\]
+AUC_{ROC} = \int_{T_0}^{T_k} TPR(T_i) \ \ dFPR(T_i)
 ```
 
 For balancing the values of $`FPR`$ and $`FNR`$ on the ROC curve, we use the equal error rate $`EER`$, which represents the point on the curve where the values of $`FPR`$ and $`TPR`$ are the same.
 
 ```math
-\[\forall FPR(T_i),\ FNR(T_i) \quad \exists \quad m: \ FPR(T_m) = FNR(T_m) \]
-\[\implies EER\ =\ {FPR(T_m), 1 - TPR(T_m)} \]
+\forall FPR(T_i),\ FNR(T_i) \quad \exists \quad m: \ FPR(T_m) = FNR(T_m)
+\implies EER\ =\ {FPR(T_m), 1 - TPR(T_m)} 
 ```
 
 A similar performance measure to the ROC curve is the precision-recall (PR) curve. The PR curve is a graphical representation of the trade-off between precision and recall for different classification thresholds. The PR curve is especially useful when dealing with imbalanced datasets, where one class significantly outnumbers the other. First, we have to calculate the precision $`P`$ and recall $`R`$.
 
 ```math
-\[P = \frac{True\ Positives}{True\ Positives + False\ Positives}\]
-\[R = \frac{True\ Positives}{True\ Positives + False\ Negatives} = TPR\]
+P = \frac{True\ Positives}{True\ Positives + False\ Positives}
+R = \frac{True\ Positives}{True\ Positives + False\ Negatives} = TPR
 ```
 
 Similar to the ROC curve, we vary the threshold $`T_i`$ within the detected threshold range $`THR_{det}`$ to calculate the precision $`P`$, recall $`R`$, and $`F1`$ score.
 
 ```math
-\[\forall \ T_i \in THR_{det}\ \ \exists\ \ P(T_i),\ R(T_i)\]
-\[\forall \ P(T_i),\ R(T_i) \quad \exists \quad f_{PR}(R(T_i)) = P(T_i)\]
+\forall \ T_i \in THR_{det}\ \ \exists\ \ P(T_i),\ R(T_i)
+\forall \ P(T_i),\ R(T_i) \quad \exists \quad f_{PR}(R(T_i)) = P(T_i)
 
-\[F1 = 2 \cdot \frac{P \cdot R}{P + R}\]
+F1 = 2 \cdot \frac{P \cdot R}{P + R}
 ```
 
 ## Experiments
