@@ -190,10 +190,12 @@ Here we present our experimental results training and testing the OC-FakeDect de
 | **Matched dataset** | UADFV | UADFV | 0.947 | 0.880 |
 | | FF-FS | FF-FS | 0.966 | 0.868 |
 | | Celeb-DF | Celeb-DF | 0.938 | 0.746 |
-| **Cross dataset** | UADFV FF-FS Celeb-DF | FF-FS Celeb-DF UADFV Celeb-DF UADFV FF-Fs | 0.622 0.531 0.763 | 0.768 0.704 0.794 |
-| | UADFV FF-FS | UADFV Celeb-DF | 0.561 | 0.608 |
-| | Celeb-DF UADFV | UADFV FF-Fs | 0.574 | 0.772 |
-| | | | 0.527 | 0.680 |
+| **Cross dataset** | UADFV | FF-FS | 0.622 | 0.768 |
+| | UADFV | Celeb-DF | 0.531 | 0.704 |
+| | FF-FS | UADFV | 0.763 | 0.794 |
+| | FF-FS | Celeb-DF | 0.561 | 0.608 |
+| | Celeb-DF | UADFV | 0.574 | 0.772 |
+| | Celeb-DF | FF-Fs | 0.527 | 0.680 |
 
 ### Data preprocessing
 
